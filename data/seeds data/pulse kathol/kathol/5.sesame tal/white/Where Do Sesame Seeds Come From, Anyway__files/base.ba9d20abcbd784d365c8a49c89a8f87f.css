@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+body.grvWidgetIframeBody {
+  margin: 0;
+  padding: 0;
+}
+.grv_clear {
+  clear: both;
+}
+.grv_right {
+  float: right;
+}
+.grv_left {
+  float: left;
+}
+.grv_txt_center {
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+.grv_txt_14 {
+	font-size: 14px;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%; 
+}
+
+/* ------------------
+  DISABLE ALL ELEMENTS
+------------------------- */
+.grv_publisher > * { display: none; }
+.grv_publisher_site,
+.grv_display_name,
+.grv_article_author,
+.grv_publisher_title,
+.grv_publisher_img,
+.grv_sponsored,
+.grv_date,
+.grv_img_link,
+.grv_number,
+.grv_stats,
+.grv_thumb_rating,
+.grv_current_article_lead,
+.grv_meta_category,
+.grv_alt_headline,
+.grv_secondary_links_header,
+.grv_secondary_links,
+.grv_aol_oo_source,
+.grv_first_tag,
+.grv_section_name,
+.grv_video_dur,
+.grv_article_url_domain{
+  display: none;
+}
+
+.grvImpPixel {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+}
+
+.grv_stories_header {
+  margin-top: 0;
+}
+
+.grv_first_tag {
+  text-transform: capitalize;
+}
+
+.grv_post_type { display: none; z-index: 1 }
+.grv_article_content { display: none; width: auto; }
+
+
+/* ------------------
+  Widget Navigation
+------------------------- */
+.grv_article {
+  list-style: none;
+}
+a.grv_article_title {
+  width: auto;
+  outline: 0;
+}
+a.grv_img_link img.grv_article_img {
+   border-style:none;
+}
+
+/* ------------------
+ 	Image Resizing - in conjunction with JS
+------------------------- */
+.grv_article_img.grv_positionable {
+  position: relative;
+}
+.grv_article_img.grv_full_width {
+  width: 100%;
+}
+.grv_article_img.grv_full_height {
+  height: 100%;
+}
+.bg_fade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: auto; 
+
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  /* filter: url('blur.svg#blur'); Fix for FF - but BREAKS */
+  progid: DXImageTransform.Microsoft.Blur(pixelradius=3);
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+  /* IE 5-7 */
+  filter: alpha(opacity=15);
+  /* Netscape */
+  -moz-opacity: 0.15;
+  /* Safari 1.x */
+  -khtml-opacity: 0.15;
+  /* Good browsers  */
+  opacity: 0.15;
+}
+.fade_1 {
+  top: -1%;
+  width: 105%
+}
+.fade_2 {
+  top: -2%;
+}
+.fade_3 {
+  top: -3%;
+  width: 105%
+}
+.fade_4 {
+  top: -4%;
+}
+.fade_5 {
+  top: -5%;
+  width: 108%
+}
+.fade_6 {
+  top: -6%;
+}
+.fade_7 {
+  top: -7%;
+  width: 112%
+}
+.fade_8 {
+  top: -8%;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0 0 10px 0 rgba(50, 50, 50, 0.75);
+  box-shadow:         0 0 10px 0 rgba(50, 50, 50, 0.75);
+}
+
+.frosted_glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('frosted_glass_overlay.548dfa6bfb430b7f465a4136b9ca6b25.jpg');
+  background-size: 20%;
+  opacity: .05;
+}
+
+
+/* ------------------
+  Gravity Attribution
+------------------------- */
+#grv_badge {
+  position: relative;
+}
+.grv_badge_inner {
+  height: 13px;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+}
+
+#grv_personalization, #grv_personalizedby {
+  background: url("by_gravity_lt_dk.8adc67afbfd7d2879c26547fb63a82fd.png") no-repeat scroll -62px 0 transparent;
+  float: right;
+  height: 0;
+  overflow: hidden;
+  padding-top: 13px;
+  position: relative;
+  right: 0;
+  width: 17px;
+}
+#grv_personalization:hover {
+  background-position: -80px 0;
+}
+#grv_personalizedby {
+  background-position: 0 0;
+  width: 62px;
+}
+
+/* --- Powered by Gravity --- */
+.grv_powered_by #grv_personalization, .grv_powered_by #grv_personalizedby {
+  background: url("powered_gravity_lt_dk.03181119a2f9cc79c9cb4be78b639175.png") no-repeat scroll -109px 0 transparent;
+}
+.grv_powered_by #grv_personalization:hover {
+  background-position: -127px 0;
+}
+.grv_powered_by #grv_personalizedby {
+  background-position: 0 0;
+  width: 108px;
+}
+
+.grv_dark_bg #grv_personalization, .grv_dark_bg #grv_personalizedby {
+  background-position: -62px -18px;
+}
+.grv_dark_bg #grv_personalization:hover {
+  background-position: -81px -18px;
+}
+.grv_dark_bg #grv_personalizedby {
+  background-position: 0 -18px;
+  width: 62px;
+}
+
+
+/* --- TEXT ONLY - by Gravity --- */
+.grv_text_badge #grv_personalization {
+	background: none;
+	height: auto;
+	width: auto;
+	color: #999;
+	font-size: 11px;
+	padding: 0;
+	text-decoration: none;
+} 
+.grv_text_badge #grv_personalization:hover {
+  text-decoration: underline;
+}
+.grvHasSponsored .grv_text_badge #grv_personalization {
+  float: left;  
+}
+
+/* --- Tooltip Content --- */
+#grv_tooltip {
+  display: none;
+  background: no-repeat right bottom;
+  padding: 0 0 5px 0;
+  position: absolute;
+  margin: 0 0 0 0; /* !! -- Match to padding of #grv_best_stories ( top ) !! */
+  bottom: 19px;
+  right: 0;
+  z-index: 999;
+  font-family: arial,"Helvetica Neue", sans-serif;
+}
+.grv_tt_container {
+  padding: 15px;
+
+  border-top: 1px solid #777;
+
+  background: #404040;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#505050), to(#313131));
+  background: -webkit-linear-gradient(#505050, #313131);
+  background: -moz-linear-gradient(#505050, #313131);
+  background: -ms-linear-gradient(#505050, #313131);
+  background: -o-linear-gradient(#505050, #313131);
+  background: linear-gradient(#505050, #313131);
+  -pie-background: linear-gradient(#505050, #313131);
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+
+  -webkit-box-shadow: 0 -2px 3px rgba(0,0,0, .5);
+  -moz-box-shadow: 0 -2px 3px rgba(0,0,0, .5);
+  box-shadow: 0 -2px 3px rgba(0,0,0, .5);
+}
+#grv_tooltip .grv_tt_content {
+  color: #ddd;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 0 15px 0;
+  text-shadow: -1px 0 3px rgba(0,0,0,.7);
+  position: relative;
+}
+#grv_tooltip .grv_tt_content .grv_tt_link {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+  padding-bottom: 0;
+}
+#grv_tooltip .grv_tt_content .grv_tt_link:hover {
+  color: #09f;
+  border-bottom: 1px dotted #09f;
+}
+#grv_tooltip a.grv_tt_bottom {
+  display: block;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: normal;
+  padding: 5px 10px 5px 10px;
+  background: url('bg-black-30.988bfe97c00ad02163fd4a78437ac2b9.png');
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+#grv_tooltip a.grv_tt_bottom, #grv_tooltip a.grv_tt_bottom:visited {
+  color: #EEEEEE;
+}
+#grv_tooltip a.grv_tt_bottom:hover {
+  background: #0099FF;
+  color: #fff;
+}
+
+/* --- AdChoices Logo --- */
+#grv_adchoice {
+  display: none;
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin: 1px 0 0 4px;
+  overflow: hidden;
+  background: url(grv_adChoices2.3ce3939de80301b42b7c38cafd10899a.png) no-repeat right;
+  background-size: cover;
+}
+.grvHasSponsored #grv_adchoice {
+  display: block;
+}

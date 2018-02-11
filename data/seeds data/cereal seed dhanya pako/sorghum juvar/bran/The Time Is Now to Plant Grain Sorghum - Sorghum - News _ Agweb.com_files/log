@@ -1,0 +1,6 @@
+;
+(function(){try{
+  var px = new Image;
+  px.src = '//pixel.advertising.com/ups/41/sync?uid=bcdbf080d71b4a14c5c2ec92f9b8d410&redir=true';
+}catch(ex){}})();
+      

@@ -1,0 +1,291 @@
+html, body 
+{
+	height:100%;
+	
+	/*overflow-y:hidden;
+	overflow-x:hidden;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.bodyContent
+{
+	/*
+	left:0px;
+	overflow:auto;
+	padding: 0px;
+	margin: 0px;
+	position:absolute;
+	top:0px;
+	width:100%;
+	z-index:0;	
+	*/
+	overflow-y:auto;overflow-x:hidden;
+	padding: 0px;margin: 0px;
+	position:absolute;top:0px;left:0px;
+	width:100%;
+	z-index:0;	
+}
+
+	*:first-child+html .bodyContent{} /* 1e7 */
+	* html .bodyContent{overflow-x:hidden;} /* 1e6 */
+
+.content
+{
+	width: 90%;
+}
+.lbMenuTabText{font-size:12px;}
+#lbMiniBox {
+	position: fixed;
+	bottom:0;
+	display: block;
+	bottom: 0;
+	/*left: 50%;*/
+	width: 926px;
+	/*margin-left: -503px;*/
+	z-index: 100;
+	overflow: visible;
+ 
+ 
+  _position:absolute;
+  _top:expression(
+        eval(
+                (
+                        (document.body.scrollTop) ?
+                                document.body.scrollTop + document.body.clientHeight - this.clientHeight :
+                                document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight
+                )
+        )
+  );
+}
+#lbMiniBoxContents {
+	position: relative;
+} 
+.miniLbTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #484848;
+	text-align: left;
+	float: left;
+	margin: -10px -6px 10px 0;
+}
+#lbMenuBar {
+	font-size: 10px;
+	color: #808080;
+	margin: -7px 0 0 10px;
+	float: left;
+}
+#lbStateSwitch {
+	width: 60px;
+	text-align: center;
+	float: right;
+}
+.lbLevel {
+	color: #383838;
+	float: left;
+	opacity: 0.7;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 4px 2px 0 0;
+	display: inline;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	cursor: hand;
+}
+#menuForms input[type=text] {
+	border: 1px solid #d8d8d8; 
+	padding: 2px 3px;
+	text-align: left;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+#menuForms textarea {
+	border: 1px solid #d8d8d8; 
+	padding: 2px 3px;
+	text-align: left;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+#menuForms {
+	color: #ffffff;
+	font-size: 10px;
+	margin: 10px 0 4px 0;
+	left: 0;
+	opacity: 0.93;
+	z-index: 20;
+	position: absolute;
+	height: 38px;
+}
+.unselectedLBmenu {
+	background-color: #231F20;
+	color: #B5B5B5;
+	padding: 3px 10px;
+	cursor: pointer;
+	cursor: hand;
+}
+.selectedLBmenu {
+	background-color: #6F6F6F;
+	color: #ffffff;
+	padding: 6px 10px;
+	opacity:0.93;
+	cursor: pointer;
+	cursor: hand;
+	border-radius: 3px 3px 0 0; -moz-border-radius: 3px 3px 0 0; -webkit-border-radius: 3px 3px 0 0;
+}
+.imageCounter {
+	font-weight: normal;
+}
+#lbStateChange {
+	color: #707070;
+	cursor: default;
+	font-size: 12px;
+}
+.lightboxThumb div img
+{
+	cursor: pointer;
+}
+.lightboxThumbScroller
+{
+	float: left;
+}
+.menuContentBox {
+	position: relative; 
+	overflow: auto;
+	padding: 15px 5px 0px 15px;
+	background-color: #6F6F6F;
+	height: 85px;
+	text-align: left;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.lightboxNotice
+{
+	color: #ffffff;
+	background-color: green;
+}
+.menuContentBox input {
+	font-size: 11px;
+        font-family: Microsoft Sans Serif, Arial, Helvetica, sans-serif;
+}
+#switchLBox {
+	cursor: default;
+}
+.lightboxImgCaption
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	width: 78px; 
+	padding: 0px;
+	margin: 0px;
+	color: #aaaaaa;
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:10px;
+}
+.corner_left_top {
+	width: 32px; 
+	height: 32px;
+	background-image: url(/lightbox/images/shadow_corner_left_top.png); 
+	#background: none; 
+	#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/lightbox/images/shadow_corner_left_top.png',sizingMethod='scale')
+}
+.center_top {
+	height: 32px;
+	background-repeat: x-repeat;
+	background-image: url(/lightbox/images/shadow_top.png); 
+	#background: none; 
+	#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/lightbox/images/shadow_top.png',sizingMethod='scale')
+}
+.corner_right_top {
+	width: 32px; 
+	height: 32px;
+	background-image: url(/lightbox/images/shadow_corner_right_top.png); 
+	#background: none; 
+	#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/lightbox/images/shadow_corner_right_top.png',sizingMethod='scale')
+}
+.left_corner_middle {
+	width: 32px;
+	background-repeat: y-repeat;
+	background-image: url(/lightbox/images/shadow_left.png); 
+	#background: none; 
+	#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/lightbox/images/shadow_left.png',sizingMethod='scale')
+}
+.right_corner_middle {
+	width: 32px;
+	background-repeat: y-repeat;
+	background-image: url(/lightbox/images/shadow_right.png); 
+	#background: none; 
+	#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/lightbox/images/shadow_right.png',sizingMethod='scale')
+}
+#lbMiniBoxClosed {
+	position: fixed;
+	bottom: 0;
+	width: 100px;
+	opacity: 0.93;
+	background-color: white;
+	font-size: 11px;
+	z-index: 50;
+	right: 36px;
+	text-align: center;
+	height: 12px;
+	padding: 4px;
+	cursor: pointer;
+	-moz-border-radius:7px 7px 0 0;
+	-webkit-border-radius:7px 7px 0 0;
+	border-radius:7px 7px 0 0;
+	_position:absolute;
+	_top:expression(
+        eval(
+                (
+                        (document.body.scrollTop) ?
+                                document.body.scrollTop + document.body.clientHeight - this.clientHeight :
+                                document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight
+                )
+        )
+  );
+}
+
+.lbMiniTab {
+	color: #909090;
+	opacity: 0.76;
+	#filter: alpha(opacity=76);
+}
+ 
+.lbMiniTabOver {
+	color: #606060;
+	opacity: 0.92;
+	#filter: alpha(opacity=92);
+}
+.lightboxImgRem2
+{
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	top: 0px;
+	left: 0px; 
+	padding: 0px;
+	margin: 0px;
+	height: 15px;
+	width: 15px;
+	cursor: pointer;
+	z-index: 10000;
+}
+.emailSuccess{
+	position:absolute;
+	background: rgb(112, 112, 112);
+	width:900px;
+	text-align:center;
+	height: 73px;
+	opacity: 0.88;
+	color: rgb(180, 250, 188);
+	top: 10px;
+	padding-top: 10px;
+	font-size: 15px;
+}

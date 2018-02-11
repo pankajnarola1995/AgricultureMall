@@ -61,12 +61,12 @@ Trash Tools for Products Categories <br/>
 http://localhost/www.agromall.com <br/>
 # For seller side 
 http://localhost/www.agromall.com/seller/seller <br/>
-Username: Jyotisapariya1995@gmail.com <br/>
-Password:sapariya1234 <br/>
+Username: Pankajnarola1995@gmail.com <br/>
+Password: narola1234 <br/>
 # For Admin side 
 http://localhost/www.agromall.com/admin/admin <br/>
-Username: Jyotisapariya1995@gmail.com <br/>
-Password:sapariya1234 <br/>
+Username: Pankajnarola1995@gmail.com <br/>
+Password: narola1234 <br/>
 
 # Copyright (c) 2017 Jyotiben Sapariya. All rights reserved. <br/>
 # AgricultureMall

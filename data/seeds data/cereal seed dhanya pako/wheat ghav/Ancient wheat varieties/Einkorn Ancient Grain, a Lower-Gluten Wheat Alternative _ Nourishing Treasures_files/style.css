@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document 
+Author:Tejaswini
+Website:http://www.clickonf5.org
+*/
+/*jCarousel specific styles*/
+.jcarousel-skin-default .jcarousel-item {}
+.jcarousel-skin-default .jcarousel-item-horizontal {margin-left: 0;margin-right: 10px;}
+.jcarousel-skin-default .jcarousel-direction-rtl .jcarousel-item-horizontal {margin-left: 10px;margin-right: 0;}
+
+/*  Horizontal Buttons */
+.jcarousel-skin-default .jcarousel-next-horizontal {position: absolute;top: 40%;right: 5px; width: 20px;height: 20px; cursor: pointer;background: transparent url(next-horizontal.png) no-repeat 0 0;}
+.jcarousel-skin-default .jcarousel-direction-rtl .jcarousel-next-horizontal {left: 5px;right: auto;background-image: url(prev-horizontal.png);background-position: -24px 0;}
+.jcarousel-skin-default .jcarousel-next-horizontal:hover {background-position: 0 0;}
+.jcarousel-skin-default .jcarousel-next-horizontal:active {background-position: 0 0;}
+.jcarousel-skin-default .jcarousel-next-disabled-horizontal,.jcarousel-skin-default .jcarousel-next-disabled-horizontal:hover,.jcarousel-skin-default .jcarousel-next-disabled-horizontal:active { cursor: default; background-position: -24px 0;}
+.jcarousel-skin-default .jcarousel-prev-horizontal { position: absolute;  top: 40%; left: 5px; width: 20px; height: 20px; cursor: pointer;background: transparent url(prev-horizontal.png) no-repeat -24px 0;}
+.jcarousel-skin-default .jcarousel-direction-rtl .jcarousel-prev-horizontal { left: auto;right: 5px;background-image: url(next-horizontal.png);background-position: 0 0;}
+.jcarousel-skin-default .jcarousel-prev-horizontal:hover {background-position: -24px 0;}
+.jcarousel-skin-default .jcarousel-prev-horizontal:active {background-position: -24px 0;}
+.jcarousel-skin-default .jcarousel-prev-disabled-horizontal,.jcarousel-skin-default .jcarousel-prev-disabled-horizontal:hover,.jcarousel-skin-default .jcarousel-prev-disabled-horizontal:active { cursor: default; background-position: 0 0;}
+
+/*Smooth Slider specific styles*/
+.smooth_slider_fouc .smooth_sliderb {display: none;}
+.smooth_slider div,.smooth_slider p,.smooth_slider li,.smooth_slider span,.smooth_slider img,.smooth_slider h2,.smooth_slider ul{list-style:none;background:transparent;vertical-align:baseline;}
+.smooth_slider span{display:inline;}
+.smooth_slider{overflow:hidden;margin: 10px auto;line-height:18px;}
+.smooth_slider a{text-decoration:none !important;}
+.smooth_slider h2{clear:none;display:block;padding:0px;}
+.smooth_slider p.more a{text-decoration:underline;float:right;}
+.smooth_slider p.more a:hover{text-decoration:none;}
+.jcarousel-control{float:left;width:70%;overflow:hidden;padding:0;margin:2px 0 0 0;}
+a.smooth_sliderc_nav{margin:0 5px 0 0;display:block;float:left;background-repeat:no-repeat;background-position:center;line-height:14px;padding:1px 5px 1px 5px;outline:none;}
+.sldrbr{line-height:1px;}
+.sldrlink{display:block;font-size:8px;float:right;font-family:Verdana, Helvetica, sans-serif;}
+.sldrlink a{color:#333333;}
+.sldr_clearlt{display:block;visibility:hidden;clear:left;height:0;content:".";}
+.sldr_clearrt{display:block;visibility:hidden;clear:right;height:0;content:".";}

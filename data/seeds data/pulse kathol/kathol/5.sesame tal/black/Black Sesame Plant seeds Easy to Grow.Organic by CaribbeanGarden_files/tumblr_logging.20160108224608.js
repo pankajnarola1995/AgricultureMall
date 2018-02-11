@@ -1,0 +1,1 @@
+require(["jquery"],function(t){t("#tumblr-share").bind("click",function(){var t={php_event_name:"share_tumblr"};Etsy.Context.data.listingId&&(t.listing_id=Etsy.Context.data.listingId),Etsy.EventLogger.logEvent(t)})});

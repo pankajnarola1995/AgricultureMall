@@ -1,0 +1,152 @@
+/* ============================================================================================================================
+== BUBBLE WITH AN ISOCELES TRIANGLE
+** ============================================================================================================================ */
+
+/* THE SPEECH BUBBLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.triangle-isosceles {
+	position:relative;
+	padding:9px;
+	color:#ffffff;
+	background:#878181; /* default background for browsers without gradient support */
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	font-size:11px;
+	font-family:Arial;
+}
+.triangle-isosceles-cn {
+	position:relative;
+	padding:9px;
+	color:#ffffff;
+	background:#878181; /* default background for browsers without gradient support */
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	font-size:11px;
+	font-family:Arial;
+}
+
+/* Variant : for top positioned triangle
+------------------------------------------ */
+
+.triangle-isosceles.top {
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#f3961c), to(#f9d835));
+	background:-moz-linear-gradient(#f3961c, #f9d835);
+	background:-o-linear-gradient(#f3961c, #f9d835);
+	background:linear-gradient(#f3961c, #f9d835);
+}
+
+/* Variant : for left/right positioned triangle
+------------------------------------------ */
+
+.triangle-isosceles.left {
+	margin-left:50px;
+	background:#f3961c;
+}
+
+/* Variant : for right positioned triangle
+------------------------------------------ */
+
+.triangle-isosceles.right {
+	margin-right:50px;
+	background:#f3961c;
+}
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+/* creates triangle */
+.triangle-isosceles:after {
+	content:"";
+	position:absolute;
+	bottom:-9px; /* value = - border-top-width - border-bottom-width */
+	left:180px; /* controls horizontal position */
+	border-width:9px 9px 0; /* vary these values to change the angle of the vertex */
+	border-style:solid;
+	border-color:#878181 transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+.triangle-isosceles-cn:after {
+	content:"";
+	position:absolute;
+	bottom:-9px; /* value = - border-top-width - border-bottom-width */
+	left:119px; /* controls horizontal position */
+	border-width:9px 9px 0; /* vary these values to change the angle of the vertex */
+	border-style:solid;
+	border-color:#878181 transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+/* Variant : top
+------------------------------------------ */
+
+.triangle-isosceles.top:after {
+	top:-15px; /* value = - border-top-width - border-bottom-width */
+	right:50px; /* controls horizontal position */
+	bottom:auto;
+	left:auto;
+	border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+	border-color:#f3961c transparent;
+}
+.triangle-isosceles-cn.top:after {
+	top:-15px; /* value = - border-top-width - border-bottom-width */
+	right:50px; /* controls horizontal position */
+	bottom:auto;
+	left:auto;
+	border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+	border-color:#f3961c transparent;
+}
+
+/* Variant : left
+------------------------------------------ */
+
+.triangle-isosceles.left:after {
+	top:16px; /* controls vertical position */
+	left:-50px; /* value = - border-left-width - border-right-width */
+	bottom:auto;
+	border-width:10px 50px 10px 0;
+	border-color:transparent #f3961c;
+}
+.triangle-isosceles-cn.left:after {
+	top:16px; /* controls vertical position */
+	left:-50px; /* value = - border-left-width - border-right-width */
+	bottom:auto;
+	border-width:10px 50px 10px 0;
+	border-color:transparent #f3961c;
+}
+/* Variant : right
+------------------------------------------ */
+
+.triangle-isosceles.right:after {
+	top:16px; /* controls vertical position */
+	right:-50px; /* value = - border-left-width - border-right-width */
+	bottom:auto;
+    left:auto;
+	border-width:10px 0 10px 50px;
+	border-color:transparent #f3961c;
+}
+.triangle-isosceles-cn.right:after {
+	top:16px; /* controls vertical position */
+	right:-50px; /* value = - border-left-width - border-right-width */
+	bottom:auto;
+    left:auto;
+	border-width:10px 0 10px 50px;
+	border-color:transparent #f3961c;
+}
+/*Close Btn*/
+.closeButtonPopIE7{
+	cursor:pointer;
+	text-align:left;
+	width:30px;
+}
+.closeButtonPop{
+	position:absolute;
+	margin-left:470px;
+	margin-top:-3px;
+	cursor:pointer;
+}

@@ -1,0 +1,1 @@
+﻿(function(CornModule,$,undefined){CornModule.init=function(){var $tabs=$("#tabs").tabs();$tabs.tabs("option","active",window["iTabIndex"]);}}(window.CornModule=window.CornModule||{},jQuery));jQuery(function($){CornModule.init();BaseModule.addModuleRebindFunction("CornModule",CornModule.init);});

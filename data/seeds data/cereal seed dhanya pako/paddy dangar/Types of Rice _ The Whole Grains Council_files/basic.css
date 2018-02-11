@@ -1,0 +1,285 @@
+body {
+  color: #4a4220;
+  background-color: #ffcc5b;
+  text-align: center;
+  font-size: x-small; /* for IE5/Win */
+  voice-family: "\"}\"";
+  voice-family: "\"}\"";
+  font-size : small;
+  font-family: "Lucida Grande", "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, sans-serif;
+  background-image: url(../images/header-background.jpg);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+html>body { font-size : small; }
+
+body#edit-body {
+  background: #fff!important;
+  background-image: none!important;
+}
+
+img { border : none; }
+a:link, a:visited, li a:link, li a:visited { color : #558000; font-family: "Lucida Grande", "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, sans-serif; font-weight: bold; text-decoration: none; }
+a:hover, a:active, li a:hover, li a:active { color : #558000; font-family: "Lucida Grande", "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, sans-serif; font-weight: bold; text-decoration: underline; }
+
+.breadcrumb { color: #d9d9d9; font-size: 95%; font-weight: normal; text-align: right; margin-top: 0; margin-right: 20px; margin-bottom: 0; padding-top: 16px;}
+.breadcrumb a:link, .breadcrumb a:visited { color: #d9d9d9; font-weight: normal; text-decoration: none; }
+.breadcrumb a:hover, .breadcrumb a:active { color: #d9d9d9; font-weight: normal; text-decoration: underline; }
+
+p { font-size: 100%; font-family: "Lucida Grande", "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, sans-serif; font-weight: normal; line-height: 1.4; text-decoration: none; text-align: left; margin-top: 0.5px; margin-right: 1em; margin-bottom: 1.2em; }
+p.primal { color: #fff5e4; font-size: 80%; text-align: center; margin-top: 0.5px; margin-bottom: 0.5px; }
+h1 { color: #965a0c; font-size: 130%; font-weight: bold; text-align: left; margin: 0.67em 0 0.5em; }
+h2 { color: #b76f28; font-size: 100%; font-weight: bold; text-transform: uppercase; text-align: left; margin: 1.5em 0 0.25em; }
+h3 { color: #fff; font-size: 120%; font-weight: bold; text-transform: uppercase; float: left; margin-top: 0; }
+
+/* //ck - fixes */
+.profile h3 { color: #b76f28; font-size: 100%; font-weight: bold; text-transform: uppercase; float: none; margin-top: 0; border-bottom: 0px; }
+div.content-profile-display { border: 0; }
+
+h4 { color: #965a0c; font-size: 100%; font-weight: bold; text-transform: uppercase; margin-bottom: 0.4em; padding-top: 10px; }
+table { width: 100%; margin-top: 2em; margin-bottom: 2em; }
+table p { margin-top: 0 !important; margin-right: 0 !important; margin-bottom: 0 !important;}
+table th {
+  background: #fef5df;
+  font-weight: bold;
+  padding: 2px 11px;
+  text-align: left;
+  border-right: 1px solid #fff;
+  line-height: 1.2;
+}
+table td {
+  padding: 6px 5px;
+  border-bottom: 1px solid #fed36b;
+  vertical-align: top;
+}
+table tr.alt td {
+  background: #fef5df;
+}
+table tr.over td {
+  background: #fed36b;
+}
+table ul { text-align: left; margin-top: 0 !important; padding-top: 0 !important; list-style-type: none; }
+table li { font-size: 100%; line-height: 1em; background-image: url(../images/content/content_arrow.gif); background-repeat: no-repeat; background-position: left 0.65em !important; text-align: left; padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 8px; list-style-type: none; }
+form table th {
+  background: #fef5df;
+  font-weight: normal;
+  padding: 0;
+  text-align: left;
+}
+form table td {
+  padding: 0;
+  border-bottom: none;
+}
+form table td * {
+  padding: 0;
+}
+table { float:left; clear:left; margin-top: 2em; margin-bottom: 2em;  }
+tbody { border-top: 0px; }
+
+td, th { padding-top: 0.3em; padding-bottom: 0.3em; }
+tr, tr.even, tr.odd, tbody th { border-color: #fed36b; border-style: solid; border-width: 1px 0; }
+td, td.even, td.odd { border-color: #fed36b; border-style: solid; border-width: 0 1px; }
+tr.odd { background-color: #fff; }
+tr.even, tr.alt { background-color: #fef5df; }
+.search { color: #d9d9d9; text-align: right; float: right; margin-top: 8px; margin-right: 25px; clear: right; }
+.search a { color: #d9d9d9; font-size: 95%; font-weight: normal; text-align: right; }
+.search form { margin-top: 10px; margin-bottom: 0!important; padding-bottom: 0; }
+.search form image { margin-bottom: 0; padding-bottom: 0; }
+#wrap { width: 991px; margin: 0 auto 0; }
+.header { background-image: url(../images/whole-grains_header-bg.gif); background-repeat: no-repeat; width: 991px; float: left; margin-top: 13px; padding-top: 0; }
+.logo { float: left; margin-top: 18px; margin-bottom: 0; margin-left: 16px; padding-bottom: 0; }
+
+
+#nav { position: relative; width: 991px; float: left; margin: -4px 0 0 !important; padding: 0 !important; list-style-type: none; display: inline; }
+
+#page { background-color: white; width: 991px; float: left; }
+.location { color: white !important; background-color: #231f20; width: 979px; height: 50px; clear: both; margin: 6px 6px 0; padding: 0; }
+.location img { float: left; margin-top: -6px; margin-left: 6px; }
+#content { text-align: left; width: 680px; float: right; margin-top: 0; padding-top: 8px; padding-right: 10px; padding-bottom: 70px; }
+#content p { margin-right: 40px; }
+#content dl { line-height: 1.35em; padding-right: 20px; }
+#content dt { margin-top: 1em; }
+#content dd { margin-bottom: 1.5em;}
+#content ul { text-align: left; margin-top: 0.3em; margin-right: 40px; list-style-type: none; }
+#content ul li { font-size: 100%; line-height: 1.2em; background-image: url(../images/content/content_arrow.gif); background-repeat: no-repeat; background-position: left 0.5em; text-align: left; padding-left: 8px; list-style-type: none; }
+/* //ck */
+#content ul.pager { text-align: center; width: 100%; }
+#content ul.pager li { margin: 0; padding: 0 0.7em 0 0;}
+
+#content ol { text-align: left; margin-top: 0.3em; margin-right: 40px; }
+#content ol li { font-size: 100%; margin-bottom: 1em; list-style-type: decimal; }
+#content ul.tabs li { background-image: none!important; }
+
+#ingredients p { margin-top: 0 !important; margin-right: 0 !important; margin-bottom: 0 !important;}
+.toolbelt { height: 30px; margin-top: 0; margin-bottom: 0.75em; }
+.toolbelt img { float: left; margin-top: 0; margin-right: 5px; }
+.toolbelt a:link, .toolbelt a:visited { color: #c39b3c; font-size: 80%; text-decoration: none; float: left; margin-top: 0; margin-right: 2em; display: block; }
+.toolbelt a:hover, .toolbelt a:active { color: #c39b3c; font-size: 80%; text-decoration: underline; display: block; float: left; }
+
+/* CSS onion skin */
+.wrap0, .wrap1, .wrap2, .wrap3 {
+  display:inline-table;
+  /* \*/display:block;/**/
+}
+.wrap0 { float:right; background:url(onion/shadow.gif) no-repeat right bottom; margin-bottom: 15px; margin-left: 15px; }
+.wrap1 {
+  background:url(onion/shadow180.gif) no-repeat;
+}
+.wrap2 {
+  background:url(onion/corner_bl.gif) -16px 100% no-repeat;
+}
+.wrap3 {
+  padding:4px 6px 6px 4px;
+  background:url(onion/corner_tr.gif) 100% -16px no-repeat;
+}
+.box { padding: 9px 9px 7px; background: #fffff5; border-color:#ccc #999 #999 #ccc; border-style: solid; border-width: 1px; }
+
+#leftCol { width: 265px; float: left; margin-left: 6px; margin-top: 0; }
+
+#leftCol ul.menu { background-color: #fef5df; width: 265px; margin-bottom: 10px; margin-left: 0; padding-left: 0; padding-top: 34px; padding-bottom: 10px; }
+
+#leftCol ul.menu li.expanded ul.menu { padding-bottom: 0 !important; }
+
+#leftCol ul.menu a:link, #leftCol ul.menu a:visited { text-decoration: none; }
+#leftCol ul.menu a:hover, #leftCol ul.menu a:active { font-weight: bold; }
+
+#leftCol ul.menu li.leaf, #leftCol ul.menu li.expanded, #leftCol ul.menu li.expanded ul.menu { margin-left: 0!important;  }
+
+#leftCol ul.menu li { text-align: left; padding-top: 3px; padding-bottom: 3px; padding-left: 15px; border-bottom: 1px dotted #c39b3c; list-style-type: none; }
+#leftCol ul.menu li a { color: #5e5034; font-size: 100%; font-weight: normal; text-decoration: none; }
+
+
+#leftCol ul.menu li ul.menu { margin-top: 0.25em; border-top: 1px dotted #c39b3c; background-image: none!important; padding-top: 0.25em; padding-bottom: 0 !important;}
+
+#leftCol ul.menu li ul.menu li { padding-top: 2px; padding-bottom: 2px; border-style: none; }
+#leftCol ul.menu li ul.menu li a { font-size: 95%; background-image: url(../images/sidenav/sidenav_arrow.gif); background-repeat: no-repeat; background-position: left 50%; padding-left: 8px !important; }
+
+
+#leftCol ul li, #leftCol ul.menu li, #leftCol li.leaf {
+  list-style-type: none;
+  list-style-image: none;
+  background: none !important;
+}
+
+#leftCol ul li.expanded {
+  background: none !important;
+}
+
+#leftCol ul li.collapsed {
+  background: none !important;
+}
+
+#leftCol ul li.leaf a, #leftCol ul li.expanded a, #leftCol ul li.collapsed a {
+  display: block;
+}
+
+#leftCol div ul.menu li ul.menu li a { display: block; }
+
+#leftCol ul.menu li {
+  margin: 0.15em 0 0.15em 0;  padding-left: 0px;
+}
+
+#leftCol ul.menu li a {
+  padding-left: 20px;
+}
+
+
+#leftCol ul.menu li ul.menu li, #leftCol .item-list ul li ul.menu li, #leftCol li.leaf ul.menu {
+  padding-left: 25px;
+}
+
+
+#sidenav { background-color: #fef5df; background-image: url(../images/sidenav/wg101.gif); background-repeat: no-repeat; background-position: left top; width: 265px; float: left; margin-bottom: 10px; padding-top: 24px; padding-bottom: 10px; }
+#sidenav a:link, #sidenav a:visited { text-decoration: none; }
+#sidenav a:hover, #sidenav a:active { font-weight: bold; }
+
+
+/* CSS for Sidebox starts here */
+.sidebox { background-image: url(../images/sidebox/center.jpg); background-repeat: repeat; width: 265px; float: left; padding-bottom: 10px; }
+.sidebox a:link, .sidebox a:visited { font-size: 80%; font-weight: normal; background-image: url(../images/sidebox/sidebox_arrow.gif); background-repeat: no-repeat; background-position: right 25%; text-align: left; float: left; padding-right: 8px; }
+.sidebox h4 { background-image: url(../images/sidebox/top.jpg); background-repeat: no-repeat; background-position: left top; text-align: left; margin-top: 0; margin-left: 10px; }
+.sidebox .last { background-image: url(../images/sidebox/bottom.jpg); background-repeat: no-repeat; background-position: left bottom; float: left; padding-bottom: 10px; }
+.sidebox p { text-align: left; width: 180px; float: right; margin: 5px 8px 0.3em 0; }
+.sidebox img { line-height: 1.4; float: left; margin-right: 2px; margin-left: 4px; }
+/* CSS for Footer */
+#footer { background-color: white; width: 991px; float: left; margin-top: 12px; padding-top: 7px; padding-bottom: 7px; }
+.footnav { background-color: #fef5df; width: 977px; float: left; margin-right: 7px; margin-left: 7px; }
+.none { border-style: none !important; }
+.footnav img { float: left; padding: 10px; }
+.footnav ul { margin-top: 10px; padding-bottom: 3px; }
+.footnav li { float: left; list-style-type: none; }
+.old { margin-bottom: 0; padding-top: 1em; padding-bottom: 0; }
+.oldways { color: #eab010; font-size: 80%; padding-left: 5px; }
+.footnav a:link, .footnav a:visited { color: #b38707; font-size: 80%; text-decoration: none; list-style-type: none; float: left; padding-right: 5px; padding-left: 5px; border-right: 1px solid #d9bc7c; }
+.footnav a:hover, .footnav a:active { color: #b38707; font-size: 80%; text-decoration: underline; list-style-type: none; padding-right: 5px; padding-left: 5px; float: left; border-right: 1px solid #b38707; }
+.end { width: 991px; float: left; padding-top: 15px; padding-bottom: 2em; }
+.end a:link, .end a:visited { color: #fff5e4; text-decoration: none; }
+.end a:hover, .end a:active { color: #fff5e4; text-decoration: underline; }
+fieldset { width: 640px; float: left; }
+
+.node-form fieldset {
+  float: none;
+}
+
+/*
+.view-recipes-soups-and-starters .views-exposed-widget,
+.view-recipes-salads-and-sides .views-exposed-widget,
+.view-recipes-main-dishes .views-exposed-widget,
+.view-recipes-breads .views-exposed-widget,
+.view-recipes-snacks-and-desserts .views-exposed-widget {
+  position: relative;
+  top: -36px;
+}
+*/
+
+#menu-90 a:active, #menu-109 ul li a:active { background-position: 0 -43px !important; }
+#menu-97 { background-image: url(../images/nav/home.gif); background-repeat: no-repeat; background-position: left top; width: 81px; height: 43px; float: left; }
+#menu-90 { background-image: url(../images/nav/whole-grains-101.gif); background-repeat: no-repeat; background-position: left top; width: 161px; height: 43px; float: left; }
+#menu-89 { background-image: url(../images/nav/whole-grain-stamp.gif); background-repeat: no-repeat; background-position: left top; width: 164px; height: 43px; float: left; }
+#menu-87 { background-image: url(../images/nav/find-whole-grains.gif); background-repeat: no-repeat; background-position: left top; width: 159px; height: 43px; float: left; }
+#menu-98 { background-image: url(../images/nav/recipes.gif); background-repeat: no-repeat; background-position: left top; width: 85px; height: 43px; float: left; }
+#menu-99 { background-image: url(../images/nav/resources.gif); background-repeat: no-repeat; background-position: left top; width: 104px; height: 43px; float: left; }
+#menu-100 { background-image: url(../images/nav/newsroom.gif); background-repeat: no-repeat; background-position: left top; width: 109px; height: 43px; float: left; }
+#menu-101 { background-image: url(../images/nav/get-involved.gif); background-repeat: no-repeat; background-position: left top; width: 128px; height: 43px; float: left; }
+
+
+/* Social Icons - Header */
+
+.social-links {
+  float: right;
+  width: auto;
+  color: #D9D9D9;
+  height: 18px;
+  margin: 26px 25px 0 0;
+  overflow: hidden;
+}
+.social-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none none;
+}
+.social-links li {
+  margin: 0;
+  padding: 0;
+  list-style: none none;
+  float: left;
+  margin-left: .5em;
+}
+.social-links li a {
+  width: 16px;
+  height: 16px;
+  text-indent: 9999px;
+  float: right;
+}
+.social-links li a.fb {
+  background: transparent url('../images/fb-icon.png') top left no-repeat;
+}
+.social-links li a.tweet {
+  background: transparent url('../images/tweet-icon.png') top left no-repeat;
+}
+.social-links li a.pin {
+  background: transparent url('../images/pinterest-icon.png') top left no-repeat;
+}
+.social-links li a.insta {
+  background: transparent url('../images/instagram-icon.png') top left no-repeat;
+}

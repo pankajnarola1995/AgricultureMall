@@ -1,0 +1,49 @@
+/*
+Plugin Name: Pinterest Pin It Button For Images
+Plugin URI: http://www.canha.net
+Description: Displays a Pin It button directly over your images
+Author: Canha
+Author URI: http://www.canha.net
+Version: 1.0.1
+*/
+/*	-----------
+		BASE STYLES
+		-----------
+*/
+
+/* If you feel comfortable editing here, go ahead. I promise to add a function soon to easily change the button */
+
+.pibfi_pinterest {
+	position: relative;
+	display: block;
+}
+.pibfi_pinterest .xc_pin {
+	width: 80px; height: 50px; /* Please note that the button is 80px x 50px. If you use a different size button, change this */
+	background-image: url('ppibfi_button.png'); background-repeat: none; /* This is the buttons image. Image can be found in the plugin folder */
+	position: absolute;
+	top: 5px;
+	margin-left: -1px;
+	opacity: 0;
+	cursor: pointer;
+	display: none;
+}
+.pibfi_pinterest img.left + .xc_pin {
+	margin-left: 0;
+}
+
+/*	-----------------
+		INTERACTIONS / FX
+		-----------------
+*/
+
+.pibfi_pinterest .xc_pin,
+.pibfi_pinterest img {
+	-webkit-transition:opacity .2s ease-out; -moz-transition:opacity .2s ease-out; transition:opacity .2s ease-out;
+}
+.pibfi_pinterest img:hover + .xc_pin,
+.pibfi_pinterest_hover {
+	opacity: .7;
+}
+.pibfi_pinterest .xc_pin:hover {
+	opacity: 1;
+}

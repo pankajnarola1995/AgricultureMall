@@ -1,0 +1,28 @@
+OX_5046028771({
+  "ads":{
+    "chain":1,
+    "medium":"w",
+    "record_tmpl":"http://us-ads.openx.net/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"http://us-u.openx.net/w/1.0/pd?plm=6&ph=94ef58655625200a8cfc5b15afcd0b94ad52d590",
+    "adunits" : [
+      {
+        "auid":"537202044",
+        "chain_timeout":"",
+        "chain":[
+          {
+            "is_fallback":1,
+            "ad_id":"0",
+            "adv_acct_id":"",
+            "width":"300",
+            "height":"250",
+            "html":"<script type=\"text/javascript\"><!--\namazon_ad_tag = \"benjaminchris-20\"; amazon_ad_width = \"300\"; amazon_ad_height = \"250\"; amazon_ad_link_target = \"new\";//--></script>\n<script type=\"text/javascript\" src=\"http://ir-na.amazon-adsystem.com/s/ads.js\"></script>",
+            "target":"_blank",
+            "ts":"1fHJpZD03YjZhZjY1OS0yOGJlLTQwMWUtYTkxMi1lZDEwNDNiNTg4MzR8cnQ9MTQ1MzM2Nzg0N3xhdWlkPTUzNzIwMjA0NHxhdW09RE1JRC5XRUJ8c2lkPTUzNzEzMDI3NnxwdWI9NTM3MDkwNDM3fHBjPVVTRHxyYWlkPWMxNGQ1Mzg3LWI3YTMtNDNhYi1iODExLWM4MmFjM2RhZjBkOHx1cj1rZDEwVVlMTUtB",
+            "type":"html",
+            "ad_url":"<script type=\"text/javascript\"><!--\namazon_ad_tag = \"benjaminchris-20\"; amazon_ad_width = \"300\"; amazon_ad_height = \"250\"; amazon_ad_link_target = \"new\";//--></script>\n<script type=\"text/javascript\" src=\"http://ir-na.amazon-adsystem.com/s/ads.js\"></script>"
+          }
+        ]
+      }
+    ]
+  }
+});

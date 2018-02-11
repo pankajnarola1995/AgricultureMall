@@ -1,0 +1,131 @@
+a.enlaces {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.enlaces:visited {color: #FFFFFF;}
+a.enlaces:active {color: #FFFF00;}
+a.enlaces:hover {color: #FFFF00;}
+a.links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+a.links:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+a.links:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFF00;
+	text-decoration: none;
+
+}
+a.links:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.links2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.link2:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.links2:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFF00;
+	text-decoration: none;
+
+}
+.links2:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.links3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+
+}
+.links3:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+
+}
+.links3:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+
+}
+.links3:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.download {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.download:visited {color: #FFFFFF;}
+.download:active {color: #FFFF00;}
+.download:hover {color: #FFFF00;}

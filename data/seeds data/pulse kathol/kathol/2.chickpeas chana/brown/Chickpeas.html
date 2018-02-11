@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0055)http://www.zernoexport.com/en/catalog/catalog2/gorohnut -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">        
+        <meta name="description" content="Chickpeas">
+        <meta name="keywords" content="Chickpeas">
+        <title>Chickpeas</title>
+        <link href="./Chickpeas_files/style.css" rel="stylesheet" type="text/css">
+        <link href="./Chickpeas_files/bulkhead.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" async="" src="./Chickpeas_files/ga.js"></script><script src="./Chickpeas_files/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="./Chickpeas_files/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="./Chickpeas_files/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+        <script src="./Chickpeas_files/jquery-ui-1.8.16.min.js" type="text/javascript" charset="utf-8"></script>
+        
+        <!--------------------------------------------->
+
+        <link rel="stylesheet" href="./Chickpeas_files/nivo-slider.css" type="text/css" media="screen">
+		<link href="./Chickpeas_files/css" rel="stylesheet" type="text/css">
+		<link href="./Chickpeas_files/css(1)" rel="stylesheet" type="text/css">
+        <script src="./Chickpeas_files/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="./Chickpeas_files/default.css" type="text/css" media="screen">
+        <script type="text/javascript" src="./Chickpeas_files/jquery.cookie.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('ul#left-menu ul').each(function (i) { // Check each submenu:
+                    if ($.cookie('submenuMark-' + i)) {  // If index of submenu is marked in cookies:
+                        $(this).show().prev().removeClass('collapsed').addClass('expanded'); // Show it (add apropriate classes)
+                    } else {
+                        $(this).hide().prev().removeClass('expanded').addClass('collapsed'); // Hide it
+                    }
+                    $(this).prev().addClass('collapsible').click(function () { // Attach an event listener
+                        var this_i = $('ul#left-menu ul').index($(this).next()); // The index of the submenu of the clicked link
+                        if ($(this).next().css('display') == 'none') {
+                            $(this).next().slideDown(200, function () { // Show submenu:
+                                $(this).prev().removeClass('collapsed').addClass('expanded');
+                                cookieSet(this_i);
+                            });
+                        } else {
+                            $(this).next().slideUp(200, function () { // Hide submenu:
+                                $(this).prev().removeClass('expanded').addClass('collapsed');
+                                cookieDel(this_i);
+                                $(this).find('ul').each(function () {
+                                    $(this).hide(0, cookieDel($('ul#left-menu ul').index($(this)))).prev().removeClass('expanded').addClass('collapsed');
+                                });
+                            });
+                        }
+                        return false; // Prohibit the browser to follow the link address
+                    });
+                });           
+            });
+            function cookieSet(index) {
+                $.cookie('submenuMark-' + index, 'opened', { expires: null, path: '/' }); // Set mark to cookie (submenu is shown):
+            }
+            function cookieDel(index) {
+                $.cookie('submenuMark-' + index, null, { expires: null, path: '/' }); // Delete mark from cookie (submenu is hidden):
+            }        
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#slider').nivoSlider({effect: 'fade', animSpeed: 500, pauseTime: 3000, directionNav: false, directionNavHide: false, controlNav: false});
+				$('.content-menu li ul li a.active-li').siblings().children().children().css("background", "#714f2e");
+            });
+        </script>
+		<!--[if lte IE 7]>
+			<link href="/Content/UiTheme/IE.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+    </head>
+    <body id="base">
+        <div class="container">
+            <!-- HEADER -->
+            <div class="header">
+                <!-- logo -->
+                 <div id="logo-header">
+
+
+<a href="http://www.zernoexport.com/en">
+                        <img src="./Chickpeas_files/logo_engl.png">
+                    </a>
+                 </div>
+			
+                <!-- lang -->
+                <div id="lang-header">
+                    <ul class="lang-switch">
+
+
+        <li>
+            <a href="http://www.zernoexport.com/catalog/catalog2/gorohnut">рус</a>
+        </li>    
+        <li class="lang-active">
+            eng
+        </li>
+
+                    </ul>
+                </div>
+			    <!-- data -->
+			    <div id="data-header">
+
+
+    <input type="hidden" title="ActiveZone" name="data-header">
+
+			    </div>
+				<div id="under-data-header">
+
+
+<p><span class="code">contact phones: +35956/842322</span></p>
+<p><span class="code">+359887451317</span></p>
+<p>Bulgaria, Burgas, 8000, Blvd. Bulair, № 9</p>  
+<p>email: <a href="mailto:info@zernoexport.com">info@zernoexport.com</a></p>
+                </div>
+		    </div>
+		    <!-- END HEADER -->
+			<div class="slider-wrapper">
+				<div id="slider" class="nivoSlider">
+					<img src="./Chickpeas_files/zerno-1.jpg" style="width: 1020px; visibility: hidden;">
+					<img src="./Chickpeas_files/zerno-2.jpg" style="width: 1020px; visibility: hidden;">
+					<img src="./Chickpeas_files/zerno-3.jpg" style="width: 1020px; visibility: hidden;">
+					<img src="./Chickpeas_files/zerno-4.jpg" style="width: 1020px; visibility: hidden;">
+				<img class="nivo-main-image" src="./Chickpeas_files/zerno-3.jpg" style="height: 20px;"><div class="nivo-caption"></div><div class="nivo-slice" name="0" style="left: 0px; width: 1020px; height: 20px; opacity: 0.999831; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-0px;"></div><div class="nivo-slice" name="1" style="left: 68px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-68px;"></div><div class="nivo-slice" name="2" style="left: 136px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-136px;"></div><div class="nivo-slice" name="3" style="left: 204px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-204px;"></div><div class="nivo-slice" name="4" style="left: 272px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-272px;"></div><div class="nivo-slice" name="5" style="left: 340px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-340px;"></div><div class="nivo-slice" name="6" style="left: 408px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-408px;"></div><div class="nivo-slice" name="7" style="left: 476px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-476px;"></div><div class="nivo-slice" name="8" style="left: 544px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-544px;"></div><div class="nivo-slice" name="9" style="left: 612px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-612px;"></div><div class="nivo-slice" name="10" style="left: 680px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-680px;"></div><div class="nivo-slice" name="11" style="left: 748px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-748px;"></div><div class="nivo-slice" name="12" style="left: 816px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-816px;"></div><div class="nivo-slice" name="13" style="left: 884px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-884px;"></div><div class="nivo-slice" name="14" style="left: 952px; width: 68px; height: 20px; opacity: 0; overflow: hidden;"><img src="./Chickpeas_files/zerno-3.jpg" style="position:absolute; width:1020px; height:auto; display:block !important; top:0; left:-952px;"></div></div>
+			</div>
+		    <div class="clear"></div>
+		    <!-- CONTENT -->
+		    <div class="content">
+			    <!-- left -->
+			    <div id="left-content">
+				    <div class="menu">
+					    <div class="menu-top"></div>
+					    <div class="menu-middle">
+					    <ul class="content-menu">
+
+
+    <li>
+<a href="http://www.zernoexport.com/en">About us</a>    </li>
+    <li>
+        <ul id="left-menu" class="sample-menu">
+            <li><a class="active-li collapsed collapsible" href="http://www.zernoexport.com/en/catalog">Our products</a>
+                <ul style="display: none;">
+
+
+<li>
+                                        <a class="menu-link collapsed collapsible" style="background: rgb(113, 79, 46);">Oilseeds</a>
+                                        <ul style="display: none; background: rgb(113, 79, 46);">
+                                            <li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog3/podsolne4nik">Sunflower seeds</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog3/lenmasl">Flaxseeds</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog3/raps">Rapeseeds</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog3/gorchica">Mustard seeds</a></li>
+                                        </ul>
+                                      </li><li>
+                                        <a class="menu-link collapsed collapsible" style="background: rgb(113, 79, 46);">Pulses</a>
+                                        <ul style="display: none; background: rgb(113, 79, 46);">
+                                            <li><span class="li-active">Chickpeas</span></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog2/goroh">Peas</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog2/soya">Soybeans</a></li>
+                                        </ul>
+                                      </li><li>
+                                        <a class="menu-link collapsed collapsible" style="background: rgb(113, 79, 46);">Grains</a>
+                                        <ul style="display: none; background: rgb(113, 79, 46);">
+                                            <li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog1/rices">Rice</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog1/sorgo">Sorghum</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog1/pshenica">Wheat</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog1/kukuruza">Corn</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog1/yach">Barley</a></li>
+                                        </ul>
+                                      </li><li>
+                                        <a class="menu-link collapsed collapsible" style="background: rgb(113, 79, 46);">Spices</a>
+                                        <ul style="display: none; background: rgb(113, 79, 46);">
+                                            <li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/specui/coriand">Coriander seeds</a></li>
+                                        </ul>
+                                      </li><li>
+                                        <a class="menu-link collapsed collapsible" style="background: rgb(113, 79, 46);">By-products</a>
+                                        <ul style="display: none; background: rgb(113, 79, 46);">
+                                            <li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog4/jmih">Sunflower meal (cake)</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog4/oill">Sunflower oil</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog4/sugar">Sugar</a></li><li><a class="menu-link" href="http://www.zernoexport.com/en/catalog/catalog4/flour">Flour</a></li>
+                                        </ul>
+                                      </li>
+
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+<a href="http://www.zernoexport.com/en/prices">Trade offers</a>    </li>
+    <li>
+<a href="http://www.zernoexport.com/en/partners">Our partners</a>    </li>
+    <li>
+<a href="http://www.zernoexport.com/en/gallery">Photo gallery</a>    </li>
+    <li>
+<a href="http://www.zernoexport.com/en/work">Careers</a>    </li>
+    <li>
+<a href="http://www.zernoexport.com/en/news">News</a>    </li>
+    <li>
+<a href="http://www.zernoexport.com/en/contacts">Contacts</a>    </li>
+   
+					    </ul>
+					    </div>
+					    <div class="menu-bottom"></div>
+				    </div>
+			    </div>
+			    <!-- middle -->
+			    <div id="middle-content">
+                    <div class="breadcrumbs">
+                        
+
+
+<ul class="bread-menu">
+	<li><a href="http://www.zernoexport.com/en">Main</a>&nbsp;/&nbsp;</li>
+        <li>
+            <a href="http://www.zernoexport.com/en/catalog">Our products</a>&nbsp;/&nbsp;
+        </li>               
+        <li>
+            <a href="http://www.zernoexport.com/en/catalog/catalog2?page=1">Pulses</a>&nbsp;/&nbsp;
+        </li>               
+</ul>
+
+
+                    </div>
+                    <div class="clear"></div>
+                    <div class="text-content">
+                        
+<script src="./Chickpeas_files/cart.js" type="text/javascript">
+<script type="text/javascript">
+    function SortPostback(sort) {
+        javascript: location.href = '/en/catalog/catalog2/gorohnut' + sort;
+    }    
+</script>
+
+    
+<h1>Chickpeas</h1>
+
+<p><img src="./Chickpeas_files/Depositphotos_10614590_s.jpg" style="border:0px #000000;width:370px;height:187px;margin-left:150px;vertical-align:baseline"><br></p><p><br></p><div style="font-size:medium;color:#000000"><strong>General Characteristics</strong>&nbsp;</div><p style="font-size:small;color:#000000">&nbsp;</p>
+<p style="font-size:small;color:#000000">&nbsp;- Chickpea or chana is a very important pulse crop that grows as a seed of a
+plant named Cicer arietinum in the Leguminosae family. This light brown colored
+pulse is considered to be a good source of protein and is also called by the
+name of Garbanzo beans. Chana is used as an edible seed and is also used for
+making flour throughout the globe. Having a capacity to stand in drought
+conditions, this crop doesn’t have the requirement of being fed with nitrogen
+fertilizers.</p>
+<p style="font-size:small;color:#000000">&nbsp;- The varieties of chana or chickpea are separated on the basis the seed
+size, color and taste. Two of those varieties, namely Kabuli and Desi, as they
+are termed in India, are very important in terms of usage and commercial
+purposes.</p><p style="font-size:small;color:#000000"><br></p><p style="font-size:small"><br></p><p style="font-size:small"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong><span lang="EN-US" class="&lt;img src=" http:="" zernoexport.com="" scripts="" elrte="" images="" pixel.gif"="" title="/files//chickpea/Chickpea_Ord_Kabuli_fig1centre1111.JPG" rel="media6453258045949042" width="150" height="100" style="font-size: medium;">Chickpea fields</span></strong></p><p style="font-size:small;color:#000000"><strong>&nbsp;</strong></p>
+<p style="font-size:small;color:#000000">&nbsp;- In areas where chickpea is adapted, the physi- cal properties of the field
+should be considered. Well-drained soils are best suited for chickpea
+production. The short stature of the plant will result in the crop being cut
+fairly low, although most pods will be formed a few inches above the soil
+surface.</p><p><span lang="EN-US" style="font-size:small"><br></span></p><p><span lang="EN-US" style="font-size:small"><img src="./Chickpeas_files/Chickpea_Ord_Kabuli_fig1centre1111.JPG" style="border:0px #000000;width:780px;height:258px;vertical-align:baseline"><br></span></p><p><span lang="EN-US" style="font-size:small"><br></span></p><p><span lang="EN-US" style="font-size:small"><br></span></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong><span lang="EN-US" class="&lt;img src=" http:="" zernoexport.com="" scripts="" elrte="" images="" pixel.gif"="" title="/files//chickpea/Chickpea_Ord_Kabuli_fig1centre1111.JPG" rel="media1817729352042079" width="150" height="100" style="font-size: medium;">Uses</span></strong></p><p style="font-size:small;color:#000000">&nbsp;</p>
+<p style="font-size:small;color:#000000">&nbsp;- Mature chickpeas can be cooked and eaten cold in&nbsp;salads, cooked in&nbsp;stews, ground into a flour called&nbsp;gram flour&nbsp;(also known as chickpea flour and&nbsp;<span style="text-decoration:none">besan</span>&nbsp;and
+used frequently in&nbsp;Indian cuisine), ground and shaped in balls
+and fried as&nbsp;falafel, stirred into a batter and baked to make&nbsp;farinata&nbsp;or&nbsp;<span style="text-decoration:none">panelle</span>.</p><p style="font-size:small;color:#000000"><br></p><p style="font-size:small;color:#000000"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong><span lang="EN-US" style="font-size:medium">Chickpea types</span></strong></p><p style="margin-bottom:0.0001pt;background:#fffffff">&nbsp;<!-- pagebreak --></p><div><br></div><img src="./Chickpeas_files/3.jpg" style="border:0px #000000;width:200px;height:188px;margin-left:250px;vertical-align:baseline"><span style="font-size:small">&nbsp;</span><div><span style="font-size:small">&nbsp;</span></div><div><span style="font-size:small;color:#000000">&nbsp;- Kabuli chickpeas are creamy-white and much larger than desi chickpeas.
+Kabuli chickpeas are usually sold whole, so seed size and appearance are
+critically important.&nbsp;As a general rule, Kabuli production should be attempted only by
+experienced chickpea growers. Crop marketing and insect control strategies
+should be discussed with your seed shed and agronomist well before planting. </span>&nbsp; &nbsp;&nbsp;<div style="clear:both;font-size:small;color:#000000"></div><strong style="font-size:small;color:#000000"><br></strong><span style="font-size:small;color:#000000"><br></span><p style="font-size:small;color:#000000"><img src="./Chickpeas_files/2.jpg" style="border:0px #000000;width:200px;height:161px;vertical-align:baseline;margin-left:250px">&nbsp;&nbsp;</p><p style="font-size:small;color:#000000">&nbsp;- Desi chickpeas have relatively small, light brown angular seeds that are
+used for split pea (dahl) or flour after the hulls are removed. The main
+markets for this seed type are India and Pakistan. India, our main buyer,
+prefers larger, light-coloured grain. Desi varieties are the most widely grown
+under dryland production in Queensland. With effective management, Desi
+chickpeas are also suitable for irrigated production.</p><p style="font-size:small;color:#000000"><br></p><p><span style="font-size:small"><br></span></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong><span lang="EN-US" style="font-size:medium">World market</span></strong></p><p style="font-size:small;color:#000000"><strong>&nbsp;</strong></p>
+<p style="font-size:small;color:#000000">&nbsp;- Most production and consumption of chickpea (95%) takes place in developing
+countries. It was grown on about 11.9 million hectares in 2010. Chickpea
+production has increased over the past 30 years from 6.6 million metric tons to
+10.0 million metric tons. Most chickpeas are grown in South Asia, which
+accounts for more than 75% of the world chickpea area. India is by far the
+largest chickpea producing country. Over the period 1978–80 to 2008–10, the
+area under chickpea in India increased marginally from 7.6 million hectares to
+7.9 million hectares, but production increased by 40% (from 4.8 to 6.8 million
+metric tons). Other important chickpea producing countries are Pakistan,
+Turkey, Mexico, Canada and Australia.</p><p><br></p><p style="font-size:small;color:#000000"><strong style="font-size:medium">World production</strong></p><p style="font-size:small;color:#000000"><strong><br></strong></p><p style="font-size:small;color:#000000"><img src="./Chickpeas_files/fao_chickpea_production_201111110.jpg" style="border:0px  #000000;width:700px;height:714px;margin-left:50px;vertical-align:baseline"><br></p><p style="font-size:small;color:#000000"><br></p><p style="font-size:small;color:#000000"><br></p><p style="font-size:small;color:#000000"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong><span lang="EN-US" style="font-size:medium">Global chickpea Export</span></strong></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong><br></strong></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000">&nbsp;- The major chickpea growing countries are India, Pakistan, Turkey, Iran,
+Myanmar and Iraq in&nbsp;Asia, Ethiopia in Africa, Mexico, Canada and Australia. Ethiopia ranks fifth
+in the world production of chickpea amounting 253.87 thousand metric tones.
+Ethiopia’s current share in the global markets is limited as compared to its
+potential. 'Kabuli' type chickpeas (Mediterranean and Middle Eastern origin) generally
+have larger bean sizes which grow well under irrigation. Desi chickpeas have smaller seeds.
+Hybrids between Kabuli and Desi have produced strains with medium-size seeds and fair
+yields. Chickpea is one of the important pulses traded globally. The top ten
+chickpea exporting countries are India, Australia, Mexico, Canada, Myanmar, Ethiopia, USA,
+Tanzania and Kazakhstan.</p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><img src="./Chickpeas_files/exp.jpg" style="width:600px;height:372px;margin-left:50px"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><br></p><p style="margin-bottom:0.0001pt;font-size:medium;color:#000000"><strong>Global chickpea Import</strong><strong>&nbsp;</strong></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong><br></strong></p>
+<p style="font-size:small;color:#000000">&nbsp;- When we see the major importing countries, Pakistan, India, UK, Spain,
+Algeria, Bangladesh,&nbsp;UAE, Italy, Jordan and Lebanon are the major ones. Many of the importers
+have proximity to Ethiopia providing the country a comparative advantage to be taken as an
+opportunity to export chickpea at competitive prices.</p><p style="font-size:small;color:#000000"><br></p><p style="font-size:small;color:#000000"><img src="./Chickpeas_files/imp.jpg" style="width:600px;height:372px;margin-left:50px"><br></p><p style="font-size:small;color:#000000"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000">&nbsp;- However, harnessing this huge market opportunity requires boosting the
+production of&nbsp;market-preferred high valued variety. Unless marketable surplus is enhanced
+through the application of technology and /or expansion of land cover, it will be
+difficult to if not impossible to satisfy the local demand while expanding chickpea exports.</p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong style="font-size:medium">Chickpea supply chain</strong></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong><br></strong></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><img src="./Chickpeas_files/123243434.jpg" style="width:700px;height:472px;margin-left:50px"><br></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><br></p>  <p style="font-size:small;color:#000000"><strong style="font-size:medium">Market Influencing Factors</strong></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000"><strong><br></strong></p><p style="font-size:small;color:#000000"><strong>&nbsp;-&nbsp;</strong>Rainfall level and level of moisture in the soil</p><p style="font-size:small;color:#000000"><strong>&nbsp;-&nbsp;</strong>  Obstruction in the information movement</p><p style="font-size:small;color:#000000"><strong>&nbsp;-&nbsp;</strong>  Black-marketing and hoarding</p><p style="font-size:small;color:#000000"><strong>&nbsp;-&nbsp;</strong>  Crop situation in the countries from where India imports the crop</p><p style="font-size:small;color:#000000"><strong>&nbsp;-&nbsp;</strong>  Prices of the other competitive pulses produced</p><p style="font-size:small;color:#000000"><br></p><p style="font-size:small;color:#000000"><strong><br></strong></p><p style="font-size:small;color:#000000"><strong><span lang="EN-US" style="font-size:medium">Post-Harvest Storage and Handling</span></strong></p><p style="font-size:small;color:#000000"><strong>&nbsp;</strong></p>
+<p style="font-size:small;color:#000000">&nbsp;- Chickpea should be handled in a manner similar to other pulse crops. The
+irregular seed shape with the exposed beak can lead to increased mechanical
+damage when handling. The use of conveyors instead of augers can reduce damage.
+Aeration can improve storage by reducing seed moisture and temperature. Seed
+should be stored at 14 per cent moisture or less. Stored chickpea should be
+checked at intervals for moisture and temperature levels to avoid spoilage loss.
+Large seed can often test dry, but still be moist in the center.</p><p style="font-size:small;color:#000000"><br></p><p style="font-size:small;color:#000000"><img src="./Chickpeas_files/4.jpg" style="border:0px #000000;width:850px;height:301px;vertical-align:baseline"><br></p><p style="font-size:small;color:#000000"><br></p><p style="font-size:small;color:#000000"><br></p><p style="font-size:small;color:#000000"><strong style="font-size:medium">Conclusion &nbsp; &nbsp; &nbsp; &nbsp;</strong></p><p style="font-size:small;color:#000000"><strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong></p><p style="margin-bottom:0.0001pt;font-size:small;color:#000000">&nbsp;- Chickpea is grown in many areas, as a food
+crop, as a cash crop and for soil fertility&nbsp;restoration. The crop is planted on deep
+black soils after mid August to be grown using residual soil moisture. Ethiopia has
+suitable agro-climatic conditions for chickpea production. However, due to various constraints such
+as the poor quality seeds, insufficient seed production and marketing systems and poor
+product quality etc., the country did not benefit from chickpea export in the past. Chickpea is a very important foreign
+exchange earning crop next to coffee, sesame and haricot bean. The chickpea marketing system is
+generally characterized by low volumes, scattered and fragmented suppliers, complex supply
+chains, high transaction costs, lack of reliable sources of market information, and lack of
+quality control and grading systems. The predominance of low value local varieties
+and high transaction costs make exports unattractive. Since the country is
+landlocked and does not have cheaper means of transporting bulky commodities, transport costs
+undermine the competitiveness of exports. Along with low yields and limited volume of production
+that also limit competitiveness, an overwhelming proportion of the national surplus is
+traded in domestic markets. In the long-term, Ethiopia’s
+competitiveness in chickpea exports would critically depend on improving productivity, enhancing grain
+quality and ability to consistently supply required volumes of market-preferred products at
+competitive prices.</p><p style="margin-bottom:0.0001pt;background:#fffffff"><br></p><p style="margin-bottom:0.0001pt;background:#fffffff"><br></p><p style="margin-bottom:0.0001pt;background:#fffffff"><br></p><p style="margin-bottom:0.0001pt;background:#fffffff"><strong><img src="./Chickpeas_files/Depositphotos_48502703_s.jpg" style="border:0px #000000;width:200px;height:176px;vertical-align:baseline;margin-left:550px"></strong>&nbsp;</p><p style="margin-bottom:0.0001pt;background:#fffffff"><br></p>  </div>
+
+<ul class="tour-menu">
+</ul>
+
+
+                    </div>
+			    </div>			
+		    </div>
+		    <!-- END CONTENT -->
+		    <div class="clear"></div>
+		    <!-- FOOTER -->
+		    <div class="footer">
+			    <div class="footer-middle">
+				    <!-- copyright -->
+				    <div id="copyright-footer">
+
+
+© 2013 «ЗерноЭкспорт»<br>
+<a href="http://www.zernoexport.com/en/catalog/catalog2/gorohnut#" style="margin-left:0pt"><img src="./Chickpeas_files/fb.png"></a>  
+<a href="http://www.zernoexport.com/en/catalog/catalog2/gorohnut#"><img src="./Chickpeas_files/tw.png"></a>
+				    </div>
+			
+                    <!-- creator -->
+                    <div id="creator-footer">
+
+
+<a href="http://www.besoft.ua/" target="_blank">Разработка сайта</a> — Be<span style="color:#bd1100">Soft</span><sup>®</sup>
+                    </div>
+                </div>
+            </div>
+            <!-- END FOOTER -->
+        </div>
+          
+        <!-- counters -->
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42620877-38']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+        <!-- counters -->
+
+    
+</body></html>

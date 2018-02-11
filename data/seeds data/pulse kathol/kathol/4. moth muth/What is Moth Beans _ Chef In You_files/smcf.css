@@ -1,0 +1,31 @@
+/* Overlay */
+#smcf-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#smcf-container {width:450px; font-family:'Trebuchet MS', Verdana, Arial; font-size:16px; text-align:left;}
+#smcf-container .smcf-content {background-color:#333; color:#ddd; height:40px;}
+#smcf-container .smcf-cc {font-size:.9em; cursor:default;}
+#smcf-container h1 {color:#d76300; margin:0; padding:0 0 6px 12px; font-size:1.2em; text-align:left;}
+#smcf-container .smcf-loading {position:absolute; background:url(../img/loading.gif) no-repeat; z-index:8000; height:55px; width:54px; margin:-14px 0 0 170px; padding:0;}
+#smcf-container .smcf-message {text-align:center;}
+#smcf-container .smcf-error {width:92%; font-size:.8em; background:#000; border:2px solid #ccc; font-size:0.8em; font-weight:bold; margin:0 auto;}
+#smcf-container br {clear:both;}
+#smcf-container form {padding:0; margin:0;}
+#smcf-container label {clear:left; display:block; width:100px; float:left; text-align:right; padding-right:4px; font-weight:bold;}
+#smcf-container .smcf-input {float:left; padding:2px; margin:2px; background:#eee; border:1px solid #fff; font-family:'Trebuchet MS', Verdana, Arial; width:300px; font-size:.9em;}
+#smcf-container textarea {height:114px; font-size:.9em;}
+#smcf-container div.smcf-top {height:13px; background:url(../img/form_top.gif) no-repeat; padding:0; margin:0;}
+#smcf-container div.smcf-bottom {height:13px; background:url(../img/form_bottom.gif) no-repeat; font-size:.7em; text-align:center;}
+#smcf-container div.smcf-bottom a,
+#smcf-container div.smcf-bottom a:link,
+#smcf-container div.smcf-bottom a:active,
+#smcf-container div.smcf-bottom a:visited {position:relative; top:-6px; text-decoration:none; color:#333;}
+#smcf-container div.smcf-bottom a:hover {color:#888;}
+#smcf-container .smcf-button {margin:4px 0 0 4px; cursor:pointer; height:24px; border:0; font-size:1em; font-weight:bold; color:#fff; text-align:center; vertical-align:middle;}
+#smcf-container .smcf-send {width:50px; background:url(../img/send.png) no-repeat;}
+#smcf-container .smcf-cancel {width:65px; background:url(../img/cancel.png) no-repeat;}
+#smcf-container a.modalCloseX,
+#smcf-container a.modalCloseX:link,
+#smcf-container a.modalCloseX:active,
+#smcf-container a.modalCloseX:visited {text-decoration:none; font-weight:bold; font-size:1.2em; position:absolute; right:8px; color:#999;}
+#smcf-container a.modalCloseX:hover {color:#9bb3b3;}

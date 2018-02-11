@@ -1,0 +1,131 @@
+body {
+  background: white;
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+  border-style: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+hr {
+  border-width: 0;
+  clear: both;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+.hide {
+  visibility: hidden;
+  /*opacity: 0;*/
+}
+
+.adArea {
+  box-shadow: inset 0 0 0 1px black;
+  height: 100%;
+  width: 100%;
+}
+
+.roundedCorners {
+  border-radius: 8px;
+}
+
+.product {
+  background: white;
+  box-shadow: 0 0 0 1px lightgray;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.product:hover {
+  box-shadow:  0 0 0 1px red;
+}
+
+.productImage {
+  display: block;
+  margin: 0px auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.productOverlay {
+  background: rgba(255,255,255,0.7);
+  bottom: -75%;
+  height: 100%;
+  padding: 1px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.star-review-container {
+  margin: auto;
+  position: relative;
+  height: 100%;
+  line-height: 1.3;
+}
+
+.stars {
+  float: left;
+}
+
+.star-background {
+  background-size: inherit;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAmCAQAAAAYCMGrAAAA+klEQVR4AcWV4cbtMBBFF0MIVUopoVSrhDDv/3gf/RFRpzdNOty1HiBO99mzeYWgCMZMKCPGrCgrxiSUhCkDeukxJKCXAUMiehkxw6FZhxEzmp0x4kCzByYISqlYdal0supS6WrVpdLEK0YSamJiJOPY0c/uOG4s6CcXfuKJaJcRzyNCQJsNiF1sRTR1hP11NNJ8RCrONOPRf+r7J+TZgQ5CNfMOYvW/2YxDqzqA/57+gVY9eiakrnyZEGXDsaE3p/4JScwPX3rtnZATDxnPWT7X16XAHaH8HWNrlxJD9TyGti5tCM84zpZe+RxNjeX9tZqLaGoMxN/P/wHP5Vw+8ZxnEQAAAABJRU5ErkJggg==);
+  background-repeat: repeat-x;
+  display:inline-block;
+  overflow: hidden;
+  position: relative;
+  top: 1px;
+}
+
+.star {
+  background-size: inherit;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAmCAMAAACF3/kSAAAARVBMVEUAAADncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvncRvQdmh2AAAAFnRSTlMAEDAg71CgQJDg8HBvYMDPv4/fr3+fs8YwdQAAANlJREFUeF6Nk9uOgCAMBS0g4hVve/7/UzdrE2NXqJ3neSmHad4QqDEyo7WqEdGqDhiMZgfA2dQEINnUHkBvMj3+8BZ1vNTRoi6XuhhMAkOWqZjZMhUTLVMxpcHagG8CfyC/4ov1fuYTOufjFrcr4i7/Dm2osZHxulAKgkrXrZXRppc5NTUcJE5LRdJpqUiSloqkV1OReC0VyailIlnUVCSkp4LDH2Awq6mE6TFc1FLJPJHLnI0y1XZH/nO5bW2q0P2PLlWmOkhOksuDOb5HchZ/15hd6YD9Mdgvr0crAhbtroEAAAAASUVORK5CYII=);
+  display: block;
+  background-repeat: repeat-x;
+}
+
+.reviews {
+  float: left;
+  font-family: arial, sans-serif;
+}
+
+.wide {
+  width: 100%;
+}
+
+.tall {
+  height: 100%;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.v-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.align-center {
+  text-align: center;
+}
+
+.badge {
+  right: 0;
+}

@@ -1,0 +1,121 @@
+/**
+ * Basic
+ */
+.clear{ clear: both; }
+	
+/*********************************
+ * Default Styles
+ *********************************/
+.mabstyle-default.magic-action-box{
+	background: #f8f8f8;
+	background: -moz-linear-gradient(top,  #f8f8f8 0%, #e8e8e8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#e8e8e8));
+	background: -webkit-linear-gradient(top,  #f8f8f8 0%,#e8e8e8 100%);
+	background: -o-linear-gradient(top,  #f8f8f8 0%,#e8e8e8 100%);
+	background: -ms-linear-gradient(top,  #f8f8f8 0%,#e8e8e8 100%);
+	background: linear-gradient(top,  #f8f8f8 0%,#e8e8e8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#e8e8e8',GradientType=0 );
+	border: 3px solid #ccc;
+	clear: both;
+	color: #282828 !important;
+	font-size: 14px !important;
+	margin: 20px 0;
+}
+
+.mabstyle-default .mab-wrap{ padding: 15px; }
+
+.mabstyle-default .mab-aside{
+	position: relative;
+	z-index: 8;
+}
+
+.mabstyle-default .mab-aside-right .mab-aside{
+	float: right;
+	margin-left: 15px;
+}
+
+.mabstyle-default .mab-aside-left .mab-aside{
+	float: left;
+	margin-right: 15px;
+}
+
+.mabstyle-default .mab-aside-top .mab-aside{
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+
+/* Content */
+.mabstyle-default .mab-content{
+	position: relative;
+	z-index: 10;
+}
+
+.mabstyle-default.magic-action-box .mab-heading{
+	clear: none;
+	font-size: 160%;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 1.4;
+	margin: 0 0 7px;
+	text-transform: none;
+}
+
+.mabstyle-default.magic-action-box .mab-subheading{
+	clear: none;
+	font-size: 120%;
+	font-weight: bold;
+	line-height: 1.4;
+	margin: 0 0 10px;
+}
+
+.mabstyle-default.magic-action-box .mab-main-copy{
+}
+
+.mabstyle-default .mab-main-action-wrap{
+	overflow: hidden;
+}
+
+/* Form */
+.mabstyle-default.magic-action-box form{
+	overflow: hidden;
+}
+
+.mabstyle-default.magic-action-box form{
+}
+
+.mabstyle-default.magic-action-box form label{
+	font-size: 90% !important;
+}
+
+.mabstyle-default.magic-action-box form input, .mabstyle-default.magic-action-box form textarea, .mabstyle-default.magic-action-box form select{
+	background: #fff !important;
+	border: 1px solid #999 !important;
+	border-radius: 2px !important;
+	box-shadow: none;
+	color: #555 !important;
+}
+
+.mabstyle-default.magic-action-box form input:focus, .mabstyle-default.magic-action-box form textarea:focus, .mabstyle-default.magic-action-box form select:focus{
+	border-color: #888 !important;
+	box-shadow: 0 0 2px #c7c7c7 !important;
+	color: #444 !important;
+}
+
+.mabstyle-default.magic-action-box form input[type="submit"]{
+	background: #333 !important;
+	border: 1px solid #222 !important;
+	border-radius: 3px !important;
+	clear: both;
+	color: #fff !important;
+	text-shadow: -1px -1px 0 #111 !important;
+}
+
+.mabstyle-default.magic-action-box form input[type="submit"]:hover, .mabstyle-default.magic-action-box form input[type="submit"]:focus{
+	background: #555 !important;
+	border-color: #333 !important;
+	text-shadow: -1px -1px 0 #272727 !important;
+	
+}

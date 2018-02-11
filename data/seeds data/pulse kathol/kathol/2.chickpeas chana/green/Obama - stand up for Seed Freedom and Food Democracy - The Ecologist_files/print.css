@@ -1,0 +1,11 @@
+
+
+.show4Print { display: block; font-size: 14px; }
+#logoAndBanner { background-color:#FFFFFF; }
+#logoAndBanner .banner, #navBelowLogo, .hide4Print, #footer, .footer, h2.basebar, .linkings, #columnB .columnB2 { display: none; }
+#columnB { width: 100%; } 
+
+h1.articleheadline { font-size: 24px; }
+p.subheading1, p.subheading2, h2.intro { font-size: 14px; }
+.bodycontents { font-size: 15px; }
+

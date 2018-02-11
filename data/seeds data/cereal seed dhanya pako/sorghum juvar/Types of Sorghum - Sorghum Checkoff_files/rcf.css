@@ -1,0 +1,62 @@
+@font-face {
+  font-family: MoonFlower;
+  src: url('/wp-content/rcf/MoonFlower.ttf');
+}
+@font-face {
+  font-family: MoonFlowerBold;
+  src: url('/wp-content/rcf/MoonFlowerBold.ttf');
+}
+
+#rcf {
+  padding:20px;
+  background-image:url('/wp-content/rcf/rcbg.jpg');
+  background-repeat:round;
+}
+
+#rcf h3 {
+  display:none;
+}
+
+#rcf label {
+  font-family: MoonFlowerBold;
+  font-size:2em;
+  color:#fff;
+  float:left;
+}
+
+#rcf input {
+  margin-top: 1em;
+  margin-left: 1.5em;
+  height:2em;
+  opacity:0.6;
+  color:#000;
+  font-weight:bold;
+}
+
+#rcf textarea {
+  opacity:0.6;
+  color:#000;
+}
+
+#rcf input[type=submit] {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border:0 none;
+  padding:5px 15px;
+  background:#ccc;
+}
+
+
+#rcf input[type=file] {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border:0 none;
+  padding:5px 15px;
+  background:#ccc;
+}
+
+#rcf img {
+  border: 0px !important;
+  height:200px;
+  padding-left:21em;
+}

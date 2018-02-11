@@ -1,0 +1,62 @@
+<!-- Include Print CSS -->
+
+
+body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 13px Arial, Helvetica,"Lucida Grande", serif; color: #000;}
+
+
+/*Header*/
+h2 {color:#000; font-size:25px;}
+.post .entry h2 {font-size:20px;}
+
+/* Links */
+a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+a[href^="http://"] {color:#000;} 
+
+/*Image*/
+img, img a, .more-link a {border:none;}
+
+/*Remove Element*/
+#megaMenu, #search, #logo, #catnavi, .topnavi, .more-link, .navigation, #sidebartop, #related, #social, #sponsors, .tabs, #allpost, .toolbar, .splitbox, #commentform, #commentabs .idTabs, .postmeta-content .comments, #respond h3, .tag, .footerlinks {display:none;}
+
+.side {
+	display: none;
+}
+#container {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	border: none !important;
+}
+#main_content {
+	float: left;
+	color: #1F1F1F;
+	font-size: 13px;
+	width: 95%;
+	margin: 5px 0 40px 0;
+	padding: 20px;
+}
+#crumbs {
+	display: none;
+	margin: 10px 0 0 0;
+	padding: 0;
+	float: right;
+}
+#subscribe {
+	display: none;
+}
+#social {
+	display: none;
+}
+#link_wrap {
+	width: 80%;
+}
+#links {
+	display: none;
+}
+
+/*Footer*/
+#footer {
+	margin-top:10px;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- saved from url=(0152)https://s0.2mdn.net/ads/richmedia/studio/pv2/36532524/DV_2/20151230242305691/primary.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=ZMs3ETxIlq&t=1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style>
+      html {
+        overflow: hidden;
+      }
+
+      body,
+      iframe {
+        border: 0;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+      }
+    </style>
+    <script src="Enabler_01_93.js"></script>
+    <script src="dbm_html5_shell_initialization_min.js"></script>
+    <script type="text/javascript">
+      /*
+       * Creating a fake exit for Studio introspection purposes.
+       * It's never called but Studio relies on that it will find the call.
+       */
+      function createFakeExit() {
+        Enabler.exit('Layout Exit');
+      };
+
+      /*
+       * Set up FAKE studio API calls for Studio introspection.
+       * This method is never called. It is later initialized from
+       * the shell init script.
+       */
+      function fakeStudioCalls() {
+        studio.sdk.configurable.config.declare('StudioShell', {
+          'profileId': {
+            '@type': 'INT',
+            '@value': 0
+          }
+        });
+        studio.sdk.configurable.config.declare('studioinnovation_DummyExitType', {
+          '@exit': 'Layout Exit'
+        });
+
+        var config = studio.sdk.configurable.config.instantiate('StudioShell', {});
+        studio.sdk.configurable.register(config, function() {});
+      };
+
+      /*
+       * Call the initialization process from dbm_html5_shell_initialization.
+       */
+      function initializeShell() {
+        loadShell();
+      }
+    </script>
+  <script type="text/javascript" charset="UTF-8" src="prod_studio_01_93_configurablemodule.js"></script><script type="text/javascript" charset="UTF-8" src="dbm_arrow_gmc_shell_min.js"></script></head>
+  <body id="ad-container" onload="initializeShell()">
+
+<iframe id="adFrame" height="90" name="adFrame" width="728" src="MinimalCarousel_1a-2_728x90(1).html"></iframe></body></html>

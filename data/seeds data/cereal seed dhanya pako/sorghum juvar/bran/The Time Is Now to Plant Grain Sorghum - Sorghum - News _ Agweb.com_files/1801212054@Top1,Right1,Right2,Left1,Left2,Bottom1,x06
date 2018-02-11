@@ -1,0 +1,46 @@
+function OAS_RICH(position) {
+if (position == 'Bottom1') {
+document.write ('<A HREF="http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/1658596487/Bottom1/Agweb/25068_Mosaic_Power_Hour_Promos_01_01_2016/PowerHour.Mosaic.Promo.728.gif/4133434c376c61546567634142355065?x" target=" "><IMG SRC="http://imagec17.247realmedia.com/RealMedia/ads/Creatives/Agweb/25068_Mosaic_Power_Hour_Promos_01_01_2016/PowerHour.Mosaic.Promo.728.gif/1439927215"  ALT=""  BORDER="0"></A>');
+}
+if (position == 'Left1') {
+document.write ('		<a href="http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/575329127/Left1/Agweb/25914_Earth_Kind_ROS_Multi_0116/25914_Earth_Kind_ROS_160x600.html/4133434c376c61546567634142355065" target="_blank"><img src="http://imagec17.247realmedia.com/RealMedia/ads/Creatives/Agweb/25914_Earth_Kind_ROS_Multi_0116/Earthkind_AgWeb_Ad_Tower_Fresh_Cab.jpg/1452199657" style="border:0px black solid;" width="160" height="600" alt="" /></a>\n');
+document.write ('<noscript class="MOAT-farmjournaloas779973058146?moatClientLevel1=Earth_Kind&amp;moatClientLevel2=25914_Earth_Kind_ROS_Multi_0116-1216&amp;moatClientLevel3=Agweb/25914_Earth_Kind_ROS_Multi_0116&amp;moatClientLevel4=25914_Earth_Kind_ROS_160x600&amp;moatClientSlicer1=Left1&amp;moatClientSlicer2=agweb.com/crops/L15"></noscript>\n');
+document.write ('<script src="http://js.moatads.com/farmjournaloas779973058146/moatad.js#moatClientLevel1=Earth_Kind&moatClientLevel2=25914_Earth_Kind_ROS_Multi_0116-1216&moatClientLevel3=Agweb/25914_Earth_Kind_ROS_Multi_0116&moatClientLevel4=25914_Earth_Kind_ROS_160x600&moatClientSlicer1=Left1&moatClientSlicer2=agweb.com/crops/L15" type="text/javascript"></script>\n');
+}
+if (position == 'Left2') {
+document.write ('<script src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=16109393&PluID=0&w=160&h=600&ord=686118464&ncu=$$http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/686118464/Left2/Agweb/26376_360_Yield_Center_ROS_160x600_0116/26376_360_160x600_MMTag.html/4133434c376c61546567634142355065?$$&ucm=true&ncu=$$http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/686118464/Left2/Agweb/26376_360_Yield_Center_ROS_160x600_0116/26376_360_160x600_MMTag.html/4133434c376c61546567634142355065?$$"></script>\n');
+document.write ('\n');
+document.write ('<noscript>\n');
+document.write ('\n');
+document.write ('<a href="http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/686118464/Left2/Agweb/26376_360_Yield_Center_ROS_160x600_0116/26376_360_160x600_MMTag.html/4133434c376c61546567634142355065?http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=brd&FlightID=16109393&Page=&PluID=0&Pos=688538113" target="_blank"><img src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=bsr&FlightID=16109393&Page=&PluID=0&Pos=688538113" border=0 width=160 height=600></a>\n');
+document.write ('\n');
+document.write ('</noscript><IMG SRC="http://oasc14008.247realmedia.com/RealMedia/ads/adstream_lx.ads/agweb.com/crops/L15/686118464/Left2/Agweb/26376_360_Yield_Center_ROS_160x600_0116/26376_360_160x600_MMTag.html/4133434c376c61546567634142355065?_RM_EMPTY_&" style="display:none;" alt="">');
+}
+if (position == 'Right1') {
+document.write ('\n');
+document.write ('		<a href="http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/1259869814/Right1/Agweb/26569_Dow_Sonic_FP_Promos_0116/26569_Dow_Sonic_300x250_Promo.html/4133434c376c61546567634142355065" target="_blank"><img src="http://imagec17.247realmedia.com/RealMedia/ads/Creatives/Agweb/26569_Dow_Sonic_FP_Promos_0116/Soybean-Field-Patrol_300x250.jpg/1452103222" style="border:0px black solid;" width="300" height="250" alt="" /></a>\n');
+document.write ('<noscript class="MOAT-farmjournaloas779973058146?moatClientLevel1=Dow_AgroSciences&amp;moatClientLevel2=26569_Dow_Sonic_0116-0316&amp;moatClientLevel3=Agweb/26569_Dow_Sonic_FP_Promos_0116&amp;moatClientLevel4=26569_Dow_Sonic_300x250_Promo&amp;moatClientSlicer1=Right1&amp;moatClientSlicer2=agweb.com/crops/L15"></noscript>\n');
+document.write ('<script src="http://js.moatads.com/farmjournaloas779973058146/moatad.js#moatClientLevel1=Dow_AgroSciences&moatClientLevel2=26569_Dow_Sonic_0116-0316&moatClientLevel3=Agweb/26569_Dow_Sonic_FP_Promos_0116&moatClientLevel4=26569_Dow_Sonic_300x250_Promo&moatClientSlicer1=Right1&moatClientSlicer2=agweb.com/crops/L15" type="text/javascript"></script>\n');
+}
+if (position == 'Right2') {
+document.write ('<script src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=15857201&PluID=0&w=300&h=250&ord=1439224193&ncu=$$http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/1439224193/Right2/Agweb/26383_Dow_Instinct_Promos_300x250_0116/26383_Dow_Instinct_300x250_Promo_MMTag.html/4133434c376c61546567634142355065?$$&ucm=true&ncu=$$http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/1439224193/Right2/Agweb/26383_Dow_Instinct_Promos_300x250_0116/26383_Dow_Instinct_300x250_Promo_MMTag.html/4133434c376c61546567634142355065?$$"></script>\n');
+document.write ('\n');
+document.write ('<noscript>\n');
+document.write ('\n');
+document.write ('<a href="http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/1439224193/Right2/Agweb/26383_Dow_Instinct_Promos_300x250_0116/26383_Dow_Instinct_300x250_Promo_MMTag.html/4133434c376c61546567634142355065?http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=brd&FlightID=15857201&Page=&PluID=0&Pos=1870970137" target="_blank"><img src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=bsr&FlightID=15857201&Page=&PluID=0&Pos=1870970137" border=0 width=300 height=250></a>\n');
+document.write ('\n');
+document.write ('</noscript><IMG SRC="http://oasc14008.247realmedia.com/RealMedia/ads/adstream_lx.ads/agweb.com/crops/L15/1439224193/Right2/Agweb/26383_Dow_Instinct_Promos_300x250_0116/26383_Dow_Instinct_300x250_Promo_MMTag.html/4133434c376c61546567634142355065?_RM_EMPTY_&" style="display:none;" alt="">');
+}
+if (position == 'Top1') {
+document.write ('<script src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=15857204&PluID=0&w=728&h=90&ord=1094242582&ncu=$$http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/1094242582/Top1/Agweb/26383_Dow_Instinct_Promos_0116/26383_Dow_Instinct_728x90_Promo_MMTag.html/4133434c376c61546567634142355065?$$&ucm=true&ncu=$$http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/1094242582/Top1/Agweb/26383_Dow_Instinct_Promos_0116/26383_Dow_Instinct_728x90_Promo_MMTag.html/4133434c376c61546567634142355065?$$"></script>\n');
+document.write ('\n');
+document.write ('<noscript>\n');
+document.write ('\n');
+document.write ('<a href="http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/1094242582/Top1/Agweb/26383_Dow_Instinct_Promos_0116/26383_Dow_Instinct_728x90_Promo_MMTag.html/4133434c376c61546567634142355065?http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=brd&FlightID=15857204&Page=&PluID=0&Pos=1751482529" target="_blank"><img src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=bsr&FlightID=15857204&Page=&PluID=0&Pos=1751482529" border=0 width=728 height=90></a>\n');
+document.write ('\n');
+document.write ('</noscript><IMG SRC="http://oasc14008.247realmedia.com/RealMedia/ads/adstream_lx.ads/agweb.com/crops/L15/1094242582/Top1/Agweb/26383_Dow_Instinct_Promos_0116/26383_Dow_Instinct_728x90_Promo_MMTag.html/4133434c376c61546567634142355065?_RM_EMPTY_&" style="display:none;" alt="">');
+}
+if (position == 'x06') {
+document.write ('<A HREF="http://oasc14008.247realmedia.com/RealMedia/ads/click_lx.ads/agweb.com/crops/L15/1826481382/x06/Agweb/HS_300x50_Remnant/BT_App_300x50_V2.jpg/4133434c376c61546567634142355065?x" target="_top"><IMG SRC="http://imagec17.247realmedia.com/RealMedia/ads/Creatives/Agweb/HS_300x50_Remnant/BT_App_300x50_V2.jpg/1431972899"  ALT=""  BORDER="0"></A>');
+}
+}

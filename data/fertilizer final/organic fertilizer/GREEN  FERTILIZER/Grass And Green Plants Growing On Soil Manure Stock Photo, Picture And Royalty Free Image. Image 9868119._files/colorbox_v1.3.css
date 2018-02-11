@@ -1,0 +1,34 @@
+﻿/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:99999; overflow:hidden;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; right:0; bottom:0; margin:auto; width:220px; height:19px;}
+#cboxClose{display: none;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+/*#cboxOverlay{background:url(../images/colorbox/overlay.png) repeat 0 0; opacity: 0.9; filter: alpha(opacity = 90);}*/
+#cboxOverlay{background:#000; opacity: 0.8; filter: alpha(opacity = 80);}
+#colorbox{outline:0;}
+#cboxContent{background: transparent; overflow:hidden;}
+.cboxIframe{background:transparent !important;}
+#cboxError{padding:50px; border:1px solid #ccc;}
+#cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+#cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+#cboxLoadingGraphic{background:#fff url("//d1379drdlkt418.cloudfront.net/images/loading1.gif") no-repeat center center;padding:10px;border-radius:5px;}
+.cboxLoadingGraphic_detailspage, .cboxLoadingGraphic_detailspage_audio{background:#fff url("/images/123rf_detailspage_pseudoframe.jpg") no-repeat center top !important;width:1000px !important;height:95% !important;margin:5% auto 0 !important;padding:0 !important;border-radius:0 !important;}
+.cboxLoadingGraphic_detailspage{background:#fff url("//d1379drdlkt418.cloudfront.net/images/123rf_detailspage_pseudoframe.jpg") no-repeat center top !important;}
+.cboxLoadingGraphic_detailspage_audio{background:#fff url("//d1379drdlkt418.cloudfront.net/images/123rf_detailspage_audio_pseudoframe.jpg") no-repeat center top !important;}

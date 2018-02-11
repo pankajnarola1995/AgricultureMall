@@ -1,0 +1,480 @@
+/* Responsive Design
+------------------------------------------------------------ */
+
+@media only screen and (max-width: 520px){
+
+    .gform_wrapper .left_label .gfield_label,
+    .gform_wrapper .right_label .gfield_label,
+    .gform_wrapper .left_label ul.gfield_checkbox,
+    .gform_wrapper .right_label ul.gfield_checkbox,
+    .gform_wrapper .left_label ul.gfield_radio,
+    .gform_wrapper .right_label ul.gfield_radio,
+    .gform_wrapper .top_label input.small,
+    .gform_wrapper .top_label select.small,
+    .gform_wrapper .top_label input.medium,
+    .gform_wrapper .top_label select.medium {
+        width: 99% !important
+    }
+
+    .slides_content,
+    .ayo-control-nav,
+    .ayo-direction-nav,
+    th.product-thumbnail,
+    td.product-thumbnail,
+    th.product-price,
+    td.product-price,
+    th.order-shipto,
+    td.order-shipto{
+        display: none
+    }
+
+    .hentry td.actions{
+        padding: 15px 15px 10px
+    }
+
+    form .form-row-first,
+    form .form-row-last,
+    form .form-row{
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .symple-one-half,
+    .symple-one-third,
+    .symple-two-third,
+    .symple-three-fourth,
+    .symple-one-fourth,
+    .symple-one-fifth,
+    .symple-two-fifth
+    .symple-three-fifth,
+    .symple-four-fifth,
+    .symple-one-sixth,
+    .symple-five-sixth {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .symple-pricing-table > div{
+        margin-bottom: 25px;
+    }
+    
+    .symple-box,
+         .symple-box.left,
+         .symple-box.right{
+         float: none;
+         width: 100% !important;
+    }
+
+}
+
+/* WooCommerce Responsive Style
+------------------------------------------------------------ */
+
+@media only screen and (max-width: 640px){
+
+    .slides_content { margin-right: -29%}
+
+    div.product div.images, #content div.product div.images,
+    div.product div.summary, #content div.product div.summary {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+
+    .coupon,
+    .coupon input, 
+    table.cart td.actions .coupon .input-text,
+    #content table.cart td.actions .coupon .input-text,
+    #content .actions input{
+        width: 100%;
+        margin: 0 0 10px!important
+    }
+
+    .full-width-content .col2-set .col-1,
+    .full-width-content .col2-set .col-2,
+    .cart-collaterals .cross-sells,
+    .cart-collaterals .cart_totals,
+    .cart-collaterals .shipping_calculator{
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin: 0 0 2.5em
+    }
+
+    div.product .woocommerce_tabs ul.tabs,
+    #content div.product .woocommerce_tabs ul.tabs {
+        border: 1px solid #dfdbdf;
+        border-bottom-width: 0;
+        list-style: none;
+        padding: 0;
+        margin: 0 0 1.618em;
+        overflow: hidden;
+        position: relative;
+    }
+
+    div.product .woocommerce_tabs ul.tabs li,
+    #content div.product .woocommerce_tabs ul.tabs li {
+        border: none;
+        border-bottom: 1px solid #dfdbdf;
+        display: block;
+        z-index: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    div.product .woocommerce_tabs ul.tabs li a,
+    #content div.product .woocommerce_tabs ul.tabs li a {
+        display: block;
+        padding: 10px;
+    }
+
+    div.product .woocommerce_tabs ul.tabs li a:hover,
+    #content div.product .woocommerce_tabs ul.tabs li a:hover {
+        text-decoration: none;
+        color: #777;
+    }
+
+    div.product .woocommerce_tabs ul.tabs li.active,
+    #content div.product .woocommerce_tabs ul.tabs li.active {
+        background: #fff;
+        z-index: 2;
+        border-bottom-color: inherit;
+    }
+
+    div.product .woocommerce_tabs ul.tabs li.active a,
+    #content div.product .woocommerce_tabs ul.tabs li.active a {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    th.product-thumbnail,
+    td.product-thumbnail{
+        padding: 0
+    }
+
+    .ayo-procucts-title span {
+        max-width: 80%;
+        padding: 0.25em 0.5em;
+    }
+
+    .bbp-forum-freshness,
+    .bbp-topic-freshness {
+        display: none
+    }
+
+    li.bbp-forum-topic-count,
+    li.bbp-topic-voice-count,
+    li.bbp-forum-reply-count,
+    li.bbp-topic-reply-count {
+        width: 20%;
+        float: right;
+    }
+
+    #bbpress-forums div.bbp-topic-author,
+    #bbpress-forums div.bbp-reply-author{
+        margin: 0;
+        width: auto;
+    }
+
+    #bbpress-forums div.bbp-topic-content,
+    #bbpress-forums div.bbp-reply-content {
+        margin-left: 95px;
+        padding-top: 0
+    }
+
+    #bbpress-forums #bbp-single-user-details {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 0 1em;
+    }
+
+    #bbpress-forums #bbp-single-user-details #bbp-user-avatar {
+        width: 30%;
+        height: auto;
+        float: left;
+    }
+
+    #bbpress-forums #bbp-single-user-details #bbp-user-avatar img.avatar {
+        max-width: 100%;
+        height: auto
+    }
+
+    #bbpress-forums #bbp-single-user-details #bbp-user-navigation {
+        width: 60%;
+        float: right;
+    }
+
+    #bbpress-forums #bbp-user-body {
+        margin: 0;
+        float: none;
+    }
+
+    #content #bbp-your-profile fieldset label,
+    #container #bbp-your-profile fieldset label {
+        float: none;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+
+    #content fieldset.bbp-form textarea,
+    #container fieldset.bbp-form textarea,
+    #wrapper fieldset.bbp-form textarea,
+    #content fieldset.bbp-form input[type="text"], 
+    #container fieldset.bbp-form input[type="text"],
+    #wrapper fieldset.bbp-form input[type="text"],
+    #content fieldset.bbp-form input[type="password"], 
+    #container fieldset.bbp-form input[type="password"],
+    #wrapper fieldset.bbp-form input[type="password"],
+    #content fieldset.bbp-form select, 
+    #container fieldset.bbp-form select,
+    #wrapper fieldset.bbp-form select {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    #title-area,
+    #header .widget-area,
+    .content-sidebar #content,
+    .sidebar-content #content,
+    .sidebar,
+    #ayo-homepage-widget .widget,
+    .footer-widgets-1,
+    .footer-widgets-2,
+    .footer-widgets-3,
+    .footer-widgets-4{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+
+    #title-area {
+        text-align: center;
+    }
+    
+    #header .widget-area {
+        margin: 0 auto 0;
+        padding: 0;
+    }
+
+    #nav,
+    #nav:after,
+    #subnav{
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .menu-primary,
+    .menu-secondary,
+    #header ul.menu { display: none }
+
+    .menu-primary-mobile,
+    .menu-secondary-mobile,
+    .menu-header-mobile,
+    .no-js .menu-primary,
+    .no-js .menu-secondary { display: block }
+
+    .no-js #nav .wrap { margin: 0 auto}
+
+    .no-js #nav ul,
+    .no-js #nav li,
+    .no-js #subnav ul,
+    .no-js #subnav li {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    
+    #ayo-slider-wrap { padding: 9px; margin-bottom: 2em }
+
+    .slides_content p { display: none }
+    #ayo-homepage-intro { font-size: 1.125em }
+
+    #content .post-info{
+        float: none;
+        margin: 0 0 20px
+    }
+
+    #content .post-info .date,
+    #content .post-info .author,
+    #content .post-info .post-comments{
+        display: inline;
+        margin: 0 10px 0 0;
+        padding: 0
+    }
+
+    #content .post-info .date{
+        border-bottom: none;
+        margin-top: 0;
+        padding-top: 0
+    }
+
+    #content .post-info .post-comments {
+        border-top: none;
+    }
+
+    ul.products li.first { clear: none }
+
+    ul.products li.product,
+    .full-width-content ul.products li.product {
+        width: 48%;
+        width: 47% \9;
+        margin: 0 3% 2em 0;
+    }
+
+    ul.products li.product:nth-child(odd) { clear: both;}
+
+    ul.products li.product:nth-child(even){ margin-right: 0 }
+
+    .navigation{
+        border-bottom: 5px solid #444;
+    }
+
+    #footer .gototop,
+    #footer .creds{
+        float: none;
+        text-align: center;
+    }
+
+    .ayo_wc_meta {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .ayo_wc_meta li {
+        display: inline-block;
+        float: none;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1080px){
+
+    #wrap,
+    #nav
+    #header,
+    #subnav{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #header .wrap,
+    #nav .wrap,
+    #subnav .wrap,
+    #inner,
+    #footer-widgets .wrap,
+    #footer .wrap{
+        float: none;
+        display: block;
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .cart-collaterals .cross-sells,
+    .cart-collaterals .cart_totals,
+    .cart-collaterals .shipping_calculator{
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto 20px
+    }
+
+}
+
+/* Retina CSS
+------------------------------------------------------------ */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+
+    .widget_product_search input[type="submit"],
+    input[type="submit"].searchsubmit {
+        background-image: url(images/icon-search@2x.png);
+        background-size: 16px 16px;
+        -moz-background-size: 16px 16px;
+        -webkit-background-size: 16px 16px;
+    }
+
+    a.button.added:before,
+    button.button.added:before,
+    input.button.added:before,
+    #respond input#submit.added:before,
+    #content input.button.added:before,
+    .woocommerce_message:before {
+            background-image: url(lib/images/success@2x.png);
+            background-size: 16px 16px;
+            -moz-background-size: 16px 16px;
+            -webkit-background-size: 16px 16px;
+    }
+
+    table.cart a.remove,
+    #content table.cart a.remove {
+        background-image: url(lib/images/remove@2x.png);
+        background-size: 16px 16px;
+        -moz-background-size: 16px 16px;
+        -webkit-background-size: 16px 16px;
+    }
+
+    .woocommerce_info:before {
+        background-image: url(lib/images/info@2x.png);
+        background-size: 16px 16px;
+        -moz-background-size: 16px 16px;
+        -webkit-background-size: 16px 16px;
+    }
+
+    .woocommerce_error:before {
+        background-image: url(lib/images/alert@2x.png);
+        background-size: 16px 16px;
+        -moz-background-size: 16px 16px;
+        -webkit-background-size: 16px 16px;
+    }
+
+    .ayo_wc_meta li a {
+        background-image: url(lib/images/ayo_wc_meta@2x.png);
+        background-size: 16px 112px;
+        -moz-background-size: 16px 112px;
+        -webkit-background-size: 16px 112px;
+    }
+
+    .latest-tweets ul li.last a {
+        background-image: url(images/twitter@2x.png);
+        background-size: 16px 16px;
+        -moz-background-size: 16px 16px;
+        -webkit-background-size: 16px 16px;
+    }
+
+    .star-rating,
+    .star-rating span {
+        background-image: url(lib/images/star@2x.png);
+        background-size: 16px 48px;
+        -moz-background-size: 16px 48px;
+        -webkit-background-size: 16px 48px;
+    }
+
+    .ayo-direction-nav a {
+        background-image: url(lib/images/sldier_arrow@2x.png);
+        background-size: 64px 66px;
+        -moz-background-size: 64px 66px;
+        -webkit-background-size: 64px 66px;
+    }
+
+}

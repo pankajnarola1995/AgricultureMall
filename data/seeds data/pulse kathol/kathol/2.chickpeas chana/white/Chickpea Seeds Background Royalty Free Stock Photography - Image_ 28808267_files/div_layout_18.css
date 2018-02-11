@@ -1,0 +1,128 @@
+.selectorsearch{
+	vertical-align:middle;
+	height:23px;
+	margin:0;
+	line-height:8.5pt;
+	width: 200px;
+	text-align: left;
+	display: inline;
+	cursor: pointer;
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: rgb(229, 226, 222);
+	border-image: initial;
+	background-image: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(246, 243, 240);
+	background-position: initial initial;
+	background-repeat: initial initial;
+}
+.pagessearchhover{
+	padding: 4px 7px 4px 7px;
+	width: 16px; 
+	text-align: center; 
+	display: inline; 
+	cursor: pointer; 
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(229, 226, 222);
+	border-image: initial; 
+	background-image: initial; 
+	background-attachment: initial; 
+	background-origin: initial; 
+	background-clip: initial; 
+	background-color: rgb(246, 243, 240); 
+	background-position: initial initial; 
+	background-repeat: initial initial; 
+}
+.pagessearchvisited{
+	padding: 4px 7px;
+	width: 16px;
+	text-align: center;
+	display: inline; 
+	cursor:pointer;
+	cursor:hand; 
+	border:1px solid #E5E2DE;
+	background:#FFFFFF;
+}
+.thb_cell{
+	margin: 2px; 
+	overflow: hidden; 
+	float: left; 
+	width: 132px; 
+	text-align:center;
+	height: 197px;
+}
+.thb_cells{
+	border:1px solid #e5e2de; 
+	padding:3px; 
+}
+.thb_c1{
+	 border-bottom:0px; 
+	 text-align:center; 
+	 background-color:#ffffff;
+}
+.thb_c2{
+	 text-align:left; 
+	 padding:0px; 
+	 background-color:#e5e2de;
+}
+.thb_c21{
+	 margin-bottom:1px; 
+	 padding-top:1px;
+	 padding-left:2px;
+}
+.thb_c22{
+	 padding-top:1px;
+	 padding-left:2px;
+}
+.thb_c23{
+	 vertical-align:middle; 
+	 padding-bottom:0px;
+	 height:13px;
+	 display:table;
+	 width:100%;
+}
+.thb_c231{
+	background-image:url(http://thumbs.dreamstime.com/site-img/flag_desat.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	width:19px;
+	height:20px;
+}
+.thb_c232{
+	background-image:url(http://thumbs.dreamstime.com/site-img/skin1/addLB_green.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	width:87px;
+	height:20px;
+	float:right;
+}
+.thb_c233{
+	background-repeat:no-repeat;
+	cursor:pointer;
+	width:19px;
+	height:20px;
+	float:right;
+	margin-left:1px;
+}
+.thb_c234{
+	background-image:url(http://thumbs.dreamstime.com/site-img/exclusivity_star.gif);
+	background-repeat:no-repeat;
+	width:8px;
+	height:8px;
+	margin-top:4px;
+	float:right;
+}
+.lvl0{background-image:url(http://thumbs.dreamstime.com/site-img/skin1/brown.gif);}
+.lvl1{background-image:url(http://thumbs.dreamstime.com/site-img/skin1/yellow.gif);}
+.lvl2{background-image:url(http://thumbs.dreamstime.com/site-img/skin1/orange.gif);}
+.lvl3{background-image:url(http://thumbs.dreamstime.com/site-img/skin1/pink.gif);}
+.lvl4{background-image:url(http://thumbs.dreamstime.com/site-img/skin1/blue.gif);}
+.lvl5{background-image:url(http://thumbs.dreamstime.com/site-img/skin1/green.gif);}
+
+img{
+	border-width:0px;
+}

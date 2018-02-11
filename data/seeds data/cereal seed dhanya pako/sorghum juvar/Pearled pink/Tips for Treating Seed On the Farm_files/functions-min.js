@@ -1,0 +1,1 @@
+$("#searchBox").hide(),$("#searchMe").click(function(e){e.preventDefault(),$("#searchBox").slideToggle(),$("#searchBox [name='s']").focus()}),$("#closeMenu").click(function(){$(".navbar-collapse").removeClass("in")});

@@ -1,0 +1,2 @@
+function UltimateSpellClick(UltimateSpellID){document.getElementById(UltimateSpellID).childNodes[0].onclick();}
+function UltimateSpellCheck(spellSrc,windowId){window.open(spellSrc,windowId,'height=305,width=465'+((screen.availWidth)?(',left='+((screen.availWidth-465)/2)):'')+((screen.availHeight)?(',top='+((screen.availHeight-305)/2)):'')+',location=no,menubar=no,resizable=no,scrollbars=no,status=yes,toolbars=no');}

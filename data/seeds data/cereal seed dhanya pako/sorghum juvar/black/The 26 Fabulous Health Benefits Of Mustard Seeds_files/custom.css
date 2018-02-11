@@ -1,0 +1,40 @@
+/*
+Theme Name: Ayo Shop Custom Styles 
+Theme URI: http://ayothemes.com/go/ayoshop
+Description: Ayo Shop is a premium child theme for the Genesis Framework with WooCommerce and bbPress compatibility.
+Author: AyoThemes
+Author URI: http://ayothemes.com/profile/themeforest
+
+Version: 1.1
+
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments
+
+Template: genesis
+Template Version: 1.8
+
+License: GNU General Public License v2.0 (or later)
+License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+#title a, #title a:hover {
+font-size: 36px;
+text-decoration: none;
+}
+
+strong {font-weight:bold;}
+em {font-style:italic;}
+
+.listing-item img {float:left; padding-right:10px; width:150px;}
+.listing-item .title {font-size:1.5em;}
+.listing-item .excerpt-dash {display:none;}
+.listing-item {display:block;width: 100%;padding-top:20px;margin: 0px 0 0px;clear: both;}
+.listing-item .excerpt {display:block;padding-left:160px; }
+
+.related.products {
+	display: none;
+}
+
+/* hide SKU on product meta section */
+.product_meta .sku_wrapper {
+display:none;
+}

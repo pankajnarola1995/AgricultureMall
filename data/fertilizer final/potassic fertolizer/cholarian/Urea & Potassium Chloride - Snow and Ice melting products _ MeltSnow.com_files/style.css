@@ -1,0 +1,398 @@
+/*  
+Theme Name: MeltSnow.com
+Version: 1.0
+Description: Designed by <a href="http://www.sgd.cc">Sheehan Graphic Design</a>.
+Author: SGD
+Author URI: http://www.sgd.cc
+*/
+
+/*
+------------------------------------------------------------------
+NAVIGATION
+------------------------------------------------------------------
+*/
+
+body {
+	font-family: "Myriad Pro", Helvetica, san serif;
+	background-image:url(images/background_01.jpg);
+	background-repeat:repeat-x;
+	background-color:#007dd6;
+	margin:0px;
+	font-size:13px;
+}
+#trumelt th, #trumelt td, #trumelt caption {padding:0px;}
+
+h2 {font-family: "Myriad Pro", Helvetica, san serif; 
+	color:#0061b0;
+	line-height:28px;
+	margin-top:18px;
+	font-weight:bold;
+	margin-bottom:0px;
+
+}
+h2.widgettitle {
+	list-style:none;
+}
+
+h3 {
+	font-family: "Myriad Pro", Helvetica, san serif;
+	color:#000;
+	font-size:1.1em;
+	margin:9px 0px 9px 0px;
+	font-weight:bold;
+}
+h4 {
+	font-family: "Myriad Pro", Helvetica, san serif;
+	color:#ef551c;
+	font-size:1.4em;
+	margin:9px 0px 0px 0px;
+	font-weight:bold;
+}
+p {
+	margin-bottom:.8em;
+}
+.small {
+	font-size:.7em;
+	color:#666;
+	margin-bottom:0px;
+}
+
+a:link, a:visited {
+	font-family: "Myriad Pro", Helvetica, san serif;
+	text-decoration:none;
+	color:#ef551c;
+	font-weight:bold;
+	
+}
+
+a:hover{
+	text-decoration:none;
+	color:#004a9c;
+	font-weight:bold;
+}
+
+
+
+#nav_default {
+	font-family: "Myriad Pro", Helvetica, san serif;
+	font-size:15px;
+	height:54px;
+	margin: 0px;
+	padding: 0px;
+	display:block;
+	float:left;
+	top:0px;
+
+}
+
+#nav_default  li {
+	float: left;
+	position:relative;
+	list-style:none;
+}
+
+#nav_default li a {
+	line-height:54px;
+	padding:0px 15px 0px 15px;
+	margin: 0px;
+	width:auto;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+
+#nav_default a:hover, 
+#nav_default li:hover > a {
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#FFF;
+	background-image:url(images/nav_hover.jpg);
+	background-repeat:repeat-x;
+	
+}
+
+#nav_default li.current_page_item a,
+#nav_default li.current-category-parent a,
+#nav_default li.current-menu-parent a,
+#nav_default li.current-menu-item a,
+#nav_default li.current-cat a,
+#nav_default li.current-page-ancestor a,
+#nav_default li.current-post-ancestor a {
+	
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#FFF;
+	background-image:url(images/nav_active.jpg);
+	background-repeat:repeat-x;
+	}
+	
+#nav_default li.current_page_item a:hover,
+#nav_default li.current-category-parent a:hover,
+#nav_default li.current-menu-parent a:hover,
+#nav_default li.current-menu-item a:hover,
+#nav_default li.current-cat a:hover,
+#nav_default li.current-page-ancestor a:hover,
+#nav_default li.current-post-ancestor a:hover {
+	
+	}
+/* level 2 list */
+#nav_default ul {
+	display: none;
+	font-size:13px;
+	margin: 0px;
+	padding: 0px;
+	width: 190px;
+	position: absolute;
+	top:54px;
+	left: 0px;
+	background-color:#92bbde;
+	background-image:none;
+	
+
+}
+#nav_default ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+	background-image:none;
+	
+}
+
+#nav_default ul a {
+	font-weight: normal;
+	background-image:none;
+	line-height:28px;
+	color:#fff;
+}
+
+#nav_default ul li.current_page_item a,
+#nav_default ul li.current-menu-item a,
+#nav_default ul li.current-cat a,
+#nav_default ul li.current-post-ancestor a {
+	text-decoration:none;
+	color:#000;	
+
+
+	}
+	
+/* sub levels link hover */
+#nav_default ul li:hover a, 
+#nav_default li:hover li a {
+background-image:none;
+}
+#nav_default ul a:hover {
+	background-color:#666;
+	color:#fff; !important;
+	background-image:none;
+	background-color:#999;
+	
+
+}
+/* dropdown */
+#nav_default li:hover > ul {
+	display: block;
+	z-index:1000;
+}
+
+#nav_default:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+#nav_default {
+	display: inline-block;
+} 
+html[xmlns] #nav_default {
+	display: block;
+}
+ 
+* html #nav_default {
+	height: 1%;
+}
+	
+#banner {
+	width:920px;
+	height:144px;
+	margin:0px;
+	padding-left:30px;
+	background-image:url(images/banner.jpg);
+	background-repeat:no-repeat;
+}
+
+#banner a {
+	font-family: "Myriad Pro", Helvetica, san serif;
+	text-decoration:none;
+	color:#004a9c;
+}
+
+#banner a:hover{
+	text-decoration:none;
+	color:#ef551c;
+}
+
+#search {
+	width:930px;
+	height:18px;
+	padding-top:18px;
+	padding-bottom:18px;
+	padding-right:20px;
+	background-image:url(images/banner-reflection.jpg);
+	background-repeat:no-repeat;
+	text-align: right;
+	font-size: 14px;
+	font-family: "Myriad Pro", Helvetica, san serif;
+}
+#search input[type=text] {
+  margin:0px;
+  height:12px;
+  padding:3px;
+  vertical-align:top;
+}
+
+#content {
+	padding:0px 20px 20px 20px;
+	background-color:#FFF;
+	min-height:360px;
+}
+
+#sidebar {
+	font-family: "Myriad Pro", Helvetica, san serif; 
+	padding:20px;
+	background-color:#004a9c;
+	background-image:url(images/sidebar_bg.jpg);
+	background-repeat:no-repeat;
+	color:#FFF;
+}
+#sidebar h2 {
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px;
+	list-style:none;
+
+}
+#sidebar ul {
+	list-style-image:url(images/list_bullet-wht.gif);
+	list-style-position:inside;
+	padding: 0;
+	margin: 0;
+}
+#sidebar li h2 {
+	list-style:none;
+} 
+
+#sidebar a {
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+	font-size:16px;
+}
+#sidebar a:hover {
+	text-decoration:none;
+	font-weight:bold;
+	color:#ccc;
+}
+
+#sidebar .current-menu-item a,
+#sidebar .current-post-parent a,
+#sidebar .current-post-ancestor a {
+	text-decoration:none;
+	color:#ef551c;
+	}
+
+#sidebar ul.sub-menu {
+	list-style:circle;
+	list-style-position:inside;
+	padding: 0px 14px;
+	margin: 0;
+}
+
+#sidebar ul .sub-menu ul {
+	list-style:square;
+	list-style-position:inside;
+	padding: 0px 14px;
+	margin: 0;
+}
+
+#sidebar li.sub-menu {
+	line-height:18px;
+} 
+
+#sidebar .sub-menu a {
+	text-decoration:none;
+	font-weight:bold;
+	color:#80C0FF;
+	font-size:14px;
+}
+
+#sidebar ul .sub-menu a {
+	text-decoration:none;
+	font-weight:bold;
+	color:#80C0FF;
+	font-size:14px;
+}
+
+#sidebar ul .sub-menu ul a {
+	text-decoration:none;
+	font-weight:bold;
+	color:#ccc;
+	font-size:14px;
+}
+#sidebar .sub-menu a:hover {
+	text-decoration:none;
+	font-weight:bold;
+	color:#ccc;
+}
+#sidebar .sub-menu ul a:hover {
+	text-decoration:none;
+	font-weight:bold;
+	color:#fff;
+}
+#sidebar ul.sub-menu li.current_page_item a,
+#sidebar ul.sub-menu li.current-cat a,
+#sidebar ul.sub-menu li.current-page-ancestor a, 
+#sidebar ul.sub-menu li.current-post-ancestor a,
+#sidebar ul.sub-menu li.current-post-parent a{
+	text-decoration:none;
+	color:#ef551c;
+	}
+	
+#sidebar ul.sub-menu li.current_page_item ul a,
+#sidebar ul.sub-menu li.current-cat ul a,
+#sidebar ul.sub-menu li.current-page-ancestor ul a, 
+#sidebar ul.sub-menu li.current-post-ancestor ul a,
+#sidebar ul.sub-menu li.current-post-parent ul a{
+	text-decoration:none;
+	color:#ccc;
+	}
+	
+#sidebar h2.widgettitle {
+	list-style:none;
+}
+	
+#footer {
+	text-align: center;
+	color:#FFF;
+	margin-top: 36px;
+}
+#footer a {
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#footer a:hover {
+	color:#004a9c;
+	text-decoration:none;
+	font-weight:bold;
+}
+#search li {
+	list-style:none;
+}

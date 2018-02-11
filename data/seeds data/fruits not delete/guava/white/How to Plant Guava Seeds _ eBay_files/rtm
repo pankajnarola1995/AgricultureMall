@@ -1,0 +1,3 @@
+try{raptor.rtm.RtmManager.storeResponse([
+{"id":"1650","mid":"624659","iid":"2684715252092693171","type":"html","width":"1","height":"1","content":"<iframe title=\"Global Footer\" width=\"1\" height=\"1\" scrolling=\"no\" frameborder=\"no\" marginheight=\"0\" marginwidth=\"0\" border=\"0\" src=\"https://stags.bluekai.com/site/20093?ret=html&limit=8&phint=eid%3D1650&phint=type%3Dvisitor&phint=gid%3D&phint=crm%3D&phint=css%3D&phint=cg%3D16cd7fd51520a7e444a0e950e60e6e6f&phint=btf%3D0:0:0:0:0&phint=btp%3D0:0:0&phint=tps%3D&phint=fm_segment%3D&phint=pageid%3D2054849&phint=referrer%3Dhttps://www.google.co.in/&phint=user_type%3D11&phint=list2%3D&phint=tcs%3D&phint=ldt%3D&phint=rlsa_seg%3D&phint=MSD%3D0&phint=split%3D1\"></iframe>"}
+]);}catch(e){}

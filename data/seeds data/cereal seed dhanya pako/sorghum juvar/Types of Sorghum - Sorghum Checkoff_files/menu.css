@@ -1,0 +1,87 @@
+/*********************************************
+Mega Menu
+**********************************************/
+
+/* mega menu settings */
+#nav_container {  }
+#megaMenu { margin: 0; clear: both; z-index: 9999;  overflow: hidden; }
+#megaMenu #megaUber { display: block; height: 42px; background: url(../img/nav-bg.jpg) top right #81a6be; margin: 0 auto; width: 1200px;  }
+#megaMenu #megaUber li.ss-nav-menu-item-depth-0 { float: left; font-family: "franklin-gothic-urw-cond", Arial, Helvetica, sans-serif; font-weight: 500; display: block; } 
+#megaMenu #megaUber li.ss-nav-menu-item-depth-0>a { text-decoration: none; color: #CCCCCC; display: block; padding: 9px 52px 10px 45px; text-shadow: 0px 1px 2px #2f3040; position: relative; background: url(../img/nav-space-bg.png) top right no-repeat; position: relative; border: none; outline: none; }
+#megaMenu #megaUber li.ss-nav-menu-item-depth-0>a:hover, #megaMenu #megaUber li.megaHover > a { color: #1B2A34;  text-shadow: 0px -1px 0 #a0c8e5;  background-position: right -42px; }
+#megaMenu #megaUber li.ss-nav-menu-item-depth-0>a:active { top: 1px; text-shadow: none; }
+#megaMenu #megaUber li.ss-nav-menu-item-depth-0>a.active, #megaMenu #megaUber li.megaHover > a  { color: #1B2A34;  text-shadow: 0px -1px 0 #a0c8e5;  background-position: right -42px; }
+#megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu {
+	list-style: none; padding: 0;  border-right: 1px solid #C6DBE8; 
+}
+
+#megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu li {
+list-style: none; margin: 0; border-bottom: 1px solid #C6DBE8;}
+
+
+#megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu li a{
+	display: block; width: 100%; height: 100%; text-decoration: none; padding: 6px 30px; color: #070D10;  
+}
+
+#megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu li a:hover{
+	 text-decoration: none;
+}
+
+#megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu li:hover {
+	background-color: #82A6BE;
+}
+
+#megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu li ul {
+	float: left; height: auto; width: auto; border: none; margin: 0; padding: 0; width: 249px;
+}
+
+#megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu li ul li { margin: 0; padding: 0; }
+
+/* menu positions */
+.markets a, #megaMenu #menu-item-451 > a	{ z-index: 700; }
+.farmers a, #megaMenu #menu-item-447 > a	{ z-index: 600; right: 35px; }
+.research a, #megaMenu #menu-item-457 > a	{ z-index: 500; right: 70px; }
+.food a, #megaMenu #menu-item-439 > a			{ z-index: 400; right: 105px; }
+.newsroom a, #megaMenu #menu-item-463 > a		{ z-index: 300; right: 140px; }
+.about a, #megaMenu #menu-item-432 > a		{ z-index: 200; right: 175px; }
+.contact a, #megaMenu #menu-item-438 > a	  { z-index: 100; right: 210px; }
+
+#megaMenu #menu-item-451 > ul 	{}
+#megaMenu #menu-item-447 > ul	{}	
+#megaMenu #menu-item-457 > ul	{}
+#megaMenu #menu-item-439 > ul	{}
+#megaMenu #menu-item-463 > ul	{}
+#megaMenu #menu-item-432 > ul	{}
+#megaMenu #menu-item-438 > ul 	{}
+
+/* abs positioned sub menu */
+.sub-menu-1 { background: url(../img/menu-bg.png);  opacity: 1.0; list-style: none; position: absolute; display: none; }
+
+/* specific sub menu positions required for abs positioning */
+.markets .sub-menu-1, #menu-item-451 ul {  }
+.farmers .sub-menu-1, #menu-item-447 ul { margin-left: -35px;  }
+.research .sub-menu-1, #menu-item-457 ul {  margin-left: -70px;    }
+.food .sub-menu-1, #menu-item-439 ul { margin-left: -105px;  }
+.newsroom .sub-menu-, #menu-item-463 ul { margin-left: -140px;  }
+.about .sub-menu-1, #menu-item-432 ul { margin-left: -175px; }
+.contact .sub-menu-1, #menu-item-438 ul {  margin-left: -210px; }
+
+/* sub menu category image */
+.sub-menu img { border: 10px solid #fff; float: left; margin:  0 20px 20px 10px; }
+
+/* list item link styles */
+.ss-nav-menu-item-depth-1 a { text-decoration: none; color: #121F26; font-size: 12px; }
+.ss-nav-menu-item-depth-1 a:hover { text-decoration: underline; }
+
+/* category header in sub menu */	
+.navigation-head { clear: both; font-family: "franklin-gothic-urw-cond"; line-height: 120%; font-size: 13px; color: #334C5A; margin: 0; padding: 0; }
+
+/* sub menu element positioning */
+.menu_col {  }
+.menu_col ul { float: left; width: 225px; }
+.sub-menu-2 { margin: 0 25px 25px 0; }
+.left ul { border-left: 1px solid #6E8B86; border-right: none; padding-left: 10px;  }
+.menu-with-sub { width: 197px; }
+
+/* reset list links */
+.sub-menu-1 a { right: 0; font-size: 14px; }

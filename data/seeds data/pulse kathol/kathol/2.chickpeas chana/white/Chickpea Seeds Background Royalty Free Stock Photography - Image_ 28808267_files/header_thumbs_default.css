@@ -1,0 +1,41 @@
+#nextP a {
+width: 132px;
+height: 151px;
+display: block;
+background:url("http://thumbs.dreamstime.com/img/button-nextpage-sprite.gif") 0px 0px no-repeat;}
+#nextP a:hover {
+background:url("http://thumbs.dreamstime.com/img/button-nextpage-sprite.gif") -132px 0px no-repeat;}
+.it{display:inline-table}
+.ic{display:inline-table; vertical-align:middle; padding:1px; word-wrap: normal}
+.im{display:inline-table; vertical-align:middle;}
+.hm{display:table-cell; vertical-align:middle;}
+.submenu{width:100%; height:30px; padding-left:10px; padding-top:8px; }
+.tab{background-image:url(http://thumbs.dreamstime.com/site-img/tab_back2.gif); }
+.tabsep{background-image:url(http://thumbs.dreamstime.com/site-img/tab_2.gif); }
+.tabcat{background-image:url(http://thumbs.dreamstime.com/site-img/tab_categories_back.gif); }
+.topback{background-image:url(http://thumbs.dreamstime.com/site-img/top_back_back.gif); }
+.topback2{background-image:url(http://thumbs.dreamstime.com/img/top_back_back.gif); }
+.mtabbot{background-image:url(http://thumbs.dreamstime.com/site-img/tab_bot_back.gif); }
+.hd14{float:right}
+.hd15{height:25px; background-image:url(http://thumbs.dreamstime.com/search-img/tab_bot_end.gif); background-repeat:repeat-x; min-width:786px}
+.hd16{height:11px; background-image:url(http://thumbs.dreamstime.com/site-img/tab_bot_end.gif)}
+.hs01{background-image:url(http://thumbs.dreamstime.com/search-img/gray_sep_h.gif); height:5px; background-repeat:repeat-x; background-position:center; }
+.hs02{background-image:url(http://thumbs.dreamstime.com/search-img/gray_sep.gif); width:5px; background-repeat:repeat-y; background-position:center}
+.hs03{position:absolute; margin-top:-6px}
+.hs04{font-size:16px; width:350px; height:28px; padding:2px;}
+.hs10{width:350px;font-family:Tahoma;}
+.nosp{padding:0;margin:0;}
+ 
+.mpad{padding-left:16px; padding-right:16px}
+.mpadl{padding-right:16px}
+ 
+ 
+.mtbl01{background-image:url(http://thumbs.dreamstime.com/site-img/t1_left.gif); width:2px; height:20px; }
+.mtbl02{background-image:url(http://thumbs.dreamstime.com/site-img/t1_right.gif); width:2px; height:20px}
+.mtbl03{background-image:url(http://thumbs.dreamstime.com/site-img/t1_back.gif); height:17px; padding-left:8px; padding-right:8px; text-align:center}
+.mtbl03ie{background-image:url(http://thumbs.dreamstime.com/site-img/t1_back.gif); height:17px; padding-left:8px; padding-right:8px; text-align:center; padding-top:3px}
+.mtbl04{background-image:url(http://thumbs.dreamstime.com/site-img/back_tab.gif); padding-left:5px}
+.mtbl05{height: 80px; width: 78px; text-align:center;; vertical-align:top}
+.mtbl05ie{margin:2px; height: 80px; width: 78px; text-align:center;; vertical-align:top}
+.mtbl06{padding:4px; border:1px solid #e5e1de; width:10px; background-color:#FFFFFF;}
+.mtbl07{border:1px #e5e1de solid; border-top:0px; background-color:#f7f3f0; padding:6px}

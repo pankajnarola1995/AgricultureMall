@@ -1,0 +1,32 @@
+/* ### WP-PAGENAVI STYLES ### */
+
+/* ### WP-PAGENAVI STYLES ### */
+.wp-pagenavi{clear:both;color:#333;font-size:12px;margin-bottom:40px;text-align:right}
+.wp-pagenavi .pages{float:left}
+#main .wp-pagenavi a, #main .wp-pagenavi .current{border:1px solid #666;color:#333 !important;margin-left:3px;padding:3px 7px;text-decoration:none}
+#main .wp-pagenavi a:hover, #main .wp-pagenavi .current{color:#5DB934 !important}
+
+/*
+.wp-pagenavi {
+	float: right;
+	font: normal 14px/30px 'Crimson Text', Georgia, "Times New Roman", Times, serif;
+	color: #000;
+	clear: both;
+}
+.wp-pagenavi .pages {
+	display: inline;
+	float: right;
+	padding: 0 0 0 5px;
+}
+.wp-pagenavi em { color: #818181; }
+.wp-pagenavi a,
+.wp-pagenavi .current {
+	display: inline-block;
+	padding: 0 2px;
+	color: #000;
+}
+.wp-pagenavi a:hover,
+.wp-pagenavi .current { color: #5db952; }
+.wp-pagenavi .previouspostslink,
+.wp-pagenavi .nextpostslink { display: none; }
+*/

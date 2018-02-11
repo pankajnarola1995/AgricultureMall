@@ -1,0 +1,327 @@
+/**
+ * Basic
+ */
+.clear{ clear: both; }
+
+.magic-action-box, .magic-action-box *, .magic-action-box *:before, .magic-action-box *:after{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.mab-edit{
+	background: #eaeaea;
+	border: 1px solid #ccc;
+	border-radius: 0 0 3px 3px;
+	color: #21759b;
+	display: none;
+	position: absolute;
+	bottom: -20px;
+	right: 0;
+	padding: 1px 6px;
+	text-decoration: none;
+	z-index: 999;
+}
+a.mab-edit:hover{ 
+	background: #e5e5e5; border-color: #c1c1c1; color: #0f3647; 
+}
+
+/**
+ * Global
+ */
+.magic-action-box{
+	color: #222;
+	clear: both;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.3;
+	margin: 0 auto;
+	position: relative;
+}
+
+.mab-wrap{ margin: auto; }
+	
+/*********************************
+ * Default Styles
+ *********************************/
+
+.mab-aside{
+	position: relative;
+	z-index: 8;
+}
+
+.magic-action-box .mab-aside-type-video .mab-aside{ z-index: 20; }
+
+.mab-aside img{ background: none; border: none; padding: 0; margin: 0; }
+
+.mab-aside-right .mab-aside{
+	float: right;
+}
+
+.mab-aside-left .mab-aside{
+	float: left;
+}
+
+.mab-aside-top .mab-aside{
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+
+/* Content */
+.mab-content{
+	font-family: inherit;
+	position: relative;
+	z-index: 10;
+}
+
+.mab-content p{ color: inherit; font-size: inherit;  line-height: inherit; }
+
+.mab-heading{
+	clear: none;
+}
+
+.mab-subheading{
+	clear: none;
+}
+
+.magic-action-box .mab-main-copy{
+	font-family: inherit;
+	color: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.magic-action-box .mab-main-copy p{
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	line-height: inherit;
+	margin: 0 0 1em;
+}
+
+div.magic-action-box .mab-main-copy p:last-child, div.magic-action-box .mab-main-copy p.mablast{ margin-bottom: 0; }
+
+.magic-action-box .mab-secondary-copy{
+	font-family: inherit;
+	color: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.magic-action-box .mab-secondary-copy p{
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	line-height: inherit;
+	margin: 0 0 1em;
+}
+
+div.magic-action-box .mab-secondary-copy p:last-child, div.magic-action-box .mab-secondary-copy p.mablast{
+	margin-bottom: 0; 
+}
+
+.mab-main-action-wrap{
+	overflow: hidden;
+}
+
+/* Form */
+.magic-action-box form{
+	margin: 10px 0;
+}
+
+.mab-main-action-wrap .mab-field{
+	display: inline-block;
+	margin: 0 10px 0 0;
+	margin-bottom: 10px;
+	vertical-align: bottom;
+	/* for ie */
+    *display: inline;
+    zoom: 1;
+}
+
+.mab-main-action-wrap .mab-field label{
+	display: block;
+	margin-bottom: 1px;
+}
+
+.magic-action-box input[type="text"], .magic-action-box input[type="email"], .magic-action-box input[type="password"], .magic-action-box textarea{
+	box-shadow: none;
+}
+
+.magic-action-box form .mab-field input[type="text"], .magic-action-box form .mab-field input[type="email"], .magic-action-box form .mab-field input[type="password"], .magic-action-box form .mab-field textarea, .magic-action-box form .mab-field select{
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	color: #777;
+	margin: 0;
+	padding: 5px 8px;
+	width: 100%;
+}
+
+.magic-action-box .mab-wrap .mab-main-action-wrap .mab-field input[type="checkbox"]{ width: auto !important; }
+
+.mab-main-action-wrap .mab-field input:focus, .mab-main-action-wrap .mab-field textarea:focus{
+	color: #555;
+}
+
+.magic-action-box form input[type="submit"], .magic-action-box form button{
+	/*clear: both;*/
+	box-shadow: none;
+	cursor: pointer;
+	font-size: inherit;
+	margin: 0;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.mab-auto-width-submit form input[type="submit"], .mab-auto-width-submit form button{
+	width: auto;
+}
+
+.magic-action-box form input[type="submit"]:hover, .magic-action-box form input[type="submit"]:focus, .magic-action-box form button:hover{
+	
+}
+
+/* Button image */
+.magic-action-box .mab-wrap .mab-main-action-wrap form .mab-field input[type="image"]{ border: none !important; background: none !important; padding: 0 !important; width: auto !important; vertical-align: middle; }
+
+/* Basic Layout */
+.mab-center-content .mab-content{ text-align: center; }
+.mab-center-content form{ text-align: initial; }
+
+.mab-layout-horizontal{ text-align: center; }
+
+.mab-layout-horizontal .mab-aside-left .mab-aside{
+	display: inline-block; float: none; margin-right: 10px; vertical-align: middle;
+}
+
+.mab-layout-horizontal .mab-content{
+	display: inline-block; text-align: center; vertical-align: middle;
+}
+
+.mab-layout-horizontal .mab-wrap .mab-content .mab-heading, 
+.mab-layout-horizontal .mab-wrap .mab-content .mab-subheading, 
+.mab-layout-horizontal .mab-wrap .mab-main-copy, 
+.mab-layout-horizontal .mab-main-action-wrap{ 
+	display: inline-block; margin-bottom: 0; vertical-align: middle; 
+}
+
+.mab-layout-horizontal .mab-main-action-wrap{
+	margin-left: 10px;
+}
+
+.mab-layout-horizontal.magic-action-box form{
+	margin: 0; text-align: initial; 
+}
+
+
+/* Fields layout */
+.mab-fields-layout-default form .mab-field{
+	width: auto;
+}
+
+.mab-fields-layout-default form .mab-field input[type="text"], .mab-fields-layout-default form .mab-field input[type="email"], .mab-fields-layout-default form .mab-field input[type="password"], .mab-fields-layout-default form .mab-field textarea, .mab-fields-layout-default form .mab-field select{
+	width: auto;
+}
+
+.mab-fields-layout-default form input[type="submit"], .mab-fields-layout-default form{
+	width: auto;
+}
+
+.mab-fields-layout-stacked form .mab-field{
+	display: block;
+	margin: 0 0 10px;
+	width: 100%;
+}
+
+.mab-fields-layout-bytwo form .mab-field{
+	width: 47%;
+}
+
+.mab-fields-layout-bythree form .mab-field{
+	width: 30%;
+}
+
+.mab-fields-layout-byfour form .mab-field{
+	margin-right: 7px;
+	width: 23%;
+}
+
+.mab-center-fields .mab-wrap form{ text-align: center; }
+
+/* Label position */
+.mab-label-position-inline form .mab-field label{ display: inline-block; vertical-align: middle; }
+
+/** BUTTONS **/
+.mab-main-button{
+	display: inline-block;
+}
+
+/** Share Box **/
+.mab-type-share-box .mab-content{
+	overflow: hidden;
+}
+
+.mab-sharebox{
+}
+
+.mab-sharebox .mab-share-buttons{
+}
+
+.mab-type-share-box .mab-aside-top .mab-aside .mab-share-buttons{
+	display: inline-block;
+	/* for ie */
+    *display: inline;
+    zoom: 1;
+}
+
+.mab-sharebox .mab-share-buttons a.mab-share-button{
+	display: inline-block;
+	margin: 0 5px 5px 0;
+}
+
+.mab-sharebox .mab-share-buttons-small a.mab-share-button{
+	float: none;
+}
+
+/** Widget **/
+.mab-widget .mab-inside-wrap .magic-action-box{ margin: 0; }
+
+.mab-widget .mab-inside-wrap .mab-main-action-wrap{ overflow: visible;}
+
+.mab-widget .mab-inside-wrap .mab-main-action-wrap form{ overflow: visible; }
+
+.mab-widget .mab-inside-wrap .magic-action-box form .mab-field{
+}
+
+.mab-widget .mab-inside-wrap .magic-action-box form input[type="submit"], .mab-widget .mab-inside-wrap .magic-action-box form button, .mab-widget .mab-inside-wrap .magic-action-box form .mab-optin-submit{
+	width: 100%;
+}
+
+/** Alert */
+.mab-alert{ background: lightyellow; border: 1px solid #e6db55; border-radius: 2px; color: #4F4901; display: block; margin: 8px 0; padding: 8px; text-shadow: none; }
+
+/** Wysija **/
+.mab-wysija-msg{ margin: 10px 0; }
+.mab-wysija-msg .allmsgs blink{ padding-left: 24px; background: transparent url('images/loading.gif') no-repeat left center; display: block;}
+.mab-wysija-msg .allmsgs{}
+.mab-wysija-msg .allmsgs ul{ margin: 0 0 0 16px !important;}
+.mab-wysija-msg .allmsgs .updated{ background: lightYellow; border: 1px solid #E6DB55; border-radius: 3px; color: #000; display: block; margin: 10px 0; padding: 8px; text-shadow: none; }
+.mab-wysija-msg .allmsgs .xdetailed-errors,
+.mab-wysija-msg .allmsgs .error{ background: #FFEBE8; border: 1px solid #c00; border-radius: 3px; color: #000; display: block; margin: 10px 0; padding: 8; text-shadow: none; }
+
+
+/** Responsive **/
+@media only screen and (max-width: 768px){
+	.magic-action-box.mab-responsive{ margin-left: auto; margin-right: auto; max-width: 100%; }
+	.magic-action-box.mab-responsive .mab-wrap{ width: auto !important; }
+	.magic-action-box.mab-responsive .mab-wrap .mab-aside{ float: none; margin: 0 0 15px; text-align: center; width: 100%; }
+
+	.magic-action-box.mab-responsive .mab-content,
+	.magic-action-box.mab-responsive .mab-wrap .mab-heading,
+	.magic-action-box.mab-responsive .mab-wrap .mab-subheading,
+	.magic-action-box.mab-responsive .mab-wrap .mab-main-copy,
+	.magic-action-box.mab-responsive .mab-wrap .mab-secondary-copy,
+	.magic-action-box.mab-responsive .mab-wrap .mab-main-action-wrap { text-align: center !important; width: 100%; }
+
+	.magic-action-box.mab-responsive .mab-content form .mab-field{ display: block; margin-left: 0 !important; margin-right: 0 !important; width: 100%; }
+	.magic-action-box.mab-responsive .mab-content form input:not([type="checkbox"]), .magic-action-box.mab-responsive .mab-content form textarea, .magic-action-box.mab-responsive .mab-wrap .mab-main-action-wrap form input[type="submit"]{ margin-left: 0 !important; margin-right: 0 !important; width: 100% !important;}
+}

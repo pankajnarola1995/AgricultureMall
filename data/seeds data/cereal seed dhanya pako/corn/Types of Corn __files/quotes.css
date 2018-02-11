@@ -1,0 +1,103 @@
+/* $Id: quotes.css,v 1.1.2.11 2010/08/16 04:03:50 nancyw Exp $ */
+
+/**
+ * @file
+ *   quotes.css - provide formatting styles.
+ */
+
+.quotes-help-quote {
+  color: #0000ff;
+}
+
+.quotes-help-tab {
+  color: #ff0000;
+}
+
+.quotes-help-author {
+  color: #008000;
+}
+
+.quotes-help-citation {
+  color: #d2691e;
+}
+
+.quotes-author {
+  position: relative;
+  float: left;
+  padding-right: 1em;
+}
+
+.quotes-author p {
+  margin: 0;
+}
+
+.quotes-bio p {
+  margin: 0;
+  clear: right;
+}
+
+.quotes-bio-link {
+  margin-left: 3em;
+  font-size: 89%;
+  font-style: italic;
+}
+
+.quotes-citation {
+  clear: left;
+}
+
+#quotes-block-settings .form-item {
+  margin-bottom: 0;
+}
+
+#quotes-block-settings input,
+#quotes-block-settings select,
+#quotes-block-settings .resizable-textarea,
+#quotes-block-settings .description,
+#quotes-admin-settings input {
+  margin-left: 1em;
+}
+
+.quotes-radios .form-item  label.option {
+  position: relative;
+  margin-right: 2em;
+}
+
+.quotes-radios .description {
+  clear: both;
+}
+
+.block-quotes .quotes-author {
+  float: right;
+}
+
+.quotes-header-bio {
+  margin: 0 5% 0 5%;
+  background-color: #eeeeff;
+}
+
+.block-quotes {
+  /*font-size: 89%;*/
+}
+
+.block-quotes h2 {
+  text-align: center;
+}
+
+.block-quotes .content {
+  margin-left: 0.25em;
+}
+
+.block-quotes .quotes-author, .block-quotes .quotes-citation, .block-quotes .quotes-bio-link {
+  text-align: right;
+  clear: both;
+}
+
+.quotes-more-link {
+  text-align: right;
+}
+
+.quotes-view-link {
+  float: left;
+  font-style: italic;
+}

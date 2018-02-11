@@ -1,0 +1,52 @@
+.schttl {
+	border-bottom:1px solid #e5e5e5;
+}
+.schttl_1 {
+	float:left;padding:0 20px;margin:10px 0 0 0;
+}
+.schttl_1-1 {
+	font-size:13px; font-weight:normal;
+}
+.schinner {
+	padding:5px 0;
+	margin-left:250px;
+}
+.schinner1 {
+	margin-left:70px;
+	padding:5px 0;
+}
+.schfreshness {
+	margin-bottom:0;border-bottom:none;background:#ffffff;
+}
+.schtopbar {
+	margin-bottom:0;border-bottom:none;background:#ffffff;padding:0 10px;
+}
+.schcontrib {
+	margin-bottom:0;border-bottom:none;background:#eeeeee;
+}
+.schxcluster{
+	margin:20px 0 0 0;background:#ffffff;border-top:1px solid #e5e5e5;
+}
+.schimgcontain{
+	display: block;float: left !important;height: 280px;margin-left: 15px;width: 170px;
+}
+.schimgidbar{
+	border-bottom:1px dotted #e5e5e5;
+}
+.schdesclink a:link,.schdesclink a:visited,.schdesclink a:hover,.schdesclink a:active {
+color:#cccccc;text-decoration:none;border:0;
+}
+.schaddlb{
+color:#666666;border-bottom:1px dotted #666666;cursor:pointer;
+}
+.schselsrc{
+border-radius: 4px;background: #75A4FC;padding-bottom: 3px;
+}
+
+.schpop_1 {
+	border: none;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+.font_segoe {font-family: Segoe UI,helvetica,Verdana, Geneva, Sans-Serif;}

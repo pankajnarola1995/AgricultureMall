@@ -1,0 +1,48 @@
+/*
++----------------------------------------------------------------+
+|																 |
+|	 Plugin:  1.17                                  |
+|			                                                     |
+|																 |
++----------------------------------------------------------------+
+*/
+
+.Grou_image
+{
+	padding: 0px;
+}
+#Grou_image img {
+	padding: 0px;
+	vertical-align: middle;
+	 display: inline-block;
+	 padding: 4px 10px  0 0;
+}
+
+.RI_random  {
+	height: 20px;
+	padding: 6px 0px 0px 0px;
+	}
+.RI_random  a{
+	height: 20px;
+	padding: 0 10px  0 0;
+	vertical-align:  text-bottom;
+	}
+	
+.RI_Tab td tr { 
+	border:0;
+	padding: 0px 0 0 0px ;
+	
+}
+
+.RI_Textzone
+{
+	text-align:center;
+	font-size:80%;
+}
+td.RI_Tab   {
+	border:0;
+	padding: 0px 0 0 0px ;
+	text-align:center;
+}
+
+

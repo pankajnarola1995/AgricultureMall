@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://utils.imimg.com/storage/store-v6.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="robots" content="noindex, follow">
+<title>IMStore</title>
+</head>
+<body>
+<script type="text/javascript">
+var storage = function() {
+    return {postMessage: function(a, b, c) {
+            b && (c = c || parent, window.postMessage && c.postMessage(JSON.stringify(a), b.replace(/([^:]+:\/\/[^\/]+).*/, "$1")))
+        }}
+}();
+window.addEventListener ? addEventListener("message", receieveMessage, !1) : attachEvent("onmessage", receieveMessage);
+var check = {ims: {searches: 1024,cities: 1024,cities: 1024,mcatnames:1024,mcats:1024,cats:1024,groups:1024,sites:1024,latLong:1024},"*": {"*": "*"}, ss: {ss : 1024, pdmTime:1024}};
+function receieveMessage(a) {
+    var b = validate(a.data.modId, a.data.key, a.data.data);
+    "*" != a.data.modId && "*" != a.data.key && "*" != a.data.data && !0 == b && setData(a.data.modId, a.data.key, a.data.data);
+    provideData(a.data.modId, a.data.key, a.data.url, b)
+}
+function validate(a, b, c) {
+    return "undefined" == typeof (check[a] && check[a][b]) || "undefined" == typeof c || check[a][b] < JSON.stringify(c).length ? !1 : !0
+}
+function setData(a, b, c) {
+    if ("undefined" === typeof Storage)
+        return null;
+    var d = parseJson(localStorage[a.toLowerCase()] || "{}");
+    d[b.toLowerCase()] = c;
+    localStorage[a.toLowerCase()] = JSON.stringify(d)
+}
+function provideData(a, b, c, d) {
+    if ("undefined" === typeof Storage)
+        return null;
+    a = {};
+    if (d)
+        for (b in localStorage)
+            a[b] = localStorage[b];
+    else
+        a = !1;
+    storage.postMessage(a, c, parent)
+}
+function parseJson(a) {
+    return JSON ? JSON.parse(a) : eval("(" + a + ")")
+}
+;
+</script>
+
+
+</body></html>

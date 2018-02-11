@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var {
+	background: transparent;
+	border: 0 none;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: top;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table, table td {
+	padding:0;
+	border:none;
+	border-collapse:collapse;
+}
+img {
+	vertical-align:top;
+}
+embed {
+	vertical-align:top;
+}
+* {
+	border:none
+}
+/*----------- Layout ------------------*/
+
+
+h1, h2, h3, h4, h5, h6, form {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0px;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:#ffffff;
+}
+a {
+	color:#fc0000;
+	text-decoration:none;
+	outline:none;
+	border-style:none
+}
+a:hover {
+	color:#068316;
+	text-decoration:none;
+	outline:none;
+	border-style:none
+}
+.clr {
+	clear:both
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.margin_top {
+	margin:10px auto
+}
+
+
+/* Input Box */
+.margin_left {
+	margin-left:17px !important;
+}
+.input_box_long {
+	width:263px;
+	background:url(../images/input_bg_long.jpg) no-repeat center top;
+	min-height:33px;
+	margin:auto;
+	padding-top:0;
+	float:left;
+	margin-bottom:10px;
+}
+.input_box_long input {
+	background:none;
+	width:253px;
+	border:none;
+	padding:3px 10px 0 10px;
+	color:#323232;
+	font-size:12px;
+}
+
+.input_textarea {
+	width:263px;
+	height:68px;
+	background:url(../images/textarea-bg.jpg) no-repeat center top;
+	margin:auto;
+	padding-top:3px;
+	float:left;
+	margin-bottom:10px;
+}
+.input_textarea textarea {
+	background:none;
+	width:253px;
+	height:58px;	
+	border:none;
+	padding:3px 5px;
+	color:#323232;
+	font-size:12px;
+}
+
+
+/* SELECT BOX LONG */
+
+.select_large {
+	width:255px;
+	background:url(../images/input_bg_long.jpg) left top no-repeat;
+	height:33px;
+	margin:auto;
+	padding:0 0 0 8px;
+	float:left;
+	margin-bottom:10px;
+}
+.select_large .text_box {
+	background:none;
+	border:none;
+	color:#6E6E6E;
+	font-size:11px;
+	padding:0 !important;
+	width:89px;
+	height:14px;
+}
+.select_large div.selectBox {
+	position:relative;
+	display:inline-block;
+	cursor:default;
+	text-align:left;
+	clear:both;
+	color:#6E6E6E;
+	width:255px;
+	color:#323232;
+	font-size:12px;
+}
+.select_large span.selected {
+	width:255px;
+	background:url(../images/select_arrow_blue.png) no-repeat right top;
+	overflow:hidden;
+	height:26px;
+	text-indent:0;
+	line-height:22px
+}
+.select_large span:hover.selected {
+	width:255px;
+	background:url(../images/select_arrow_green.png) no-repeat right top;
+	overflow:hidden;
+	height:26px;
+	text-indent:0;
+	line-height:22px
+}
+.select_large span.selectArrow {
+	width:22px;
+	font-size:20px;
+	background:#4096ee;
+}
+.select_large span.selectArrow, span.selected {
+	position:relative;
+	float:left;
+	z-index:1;
+}
+.select_large div.selectOptions {
+	position:absolute;
+	top:27px;
+	left:0;
+	width:255px;
+	overflow:hidden;
+	background:#F0F0F0;
+	padding-top:2px;
+	display:none;
+	z-index:100;
+	max-height:100px;
+	overflow:auto;
+	overflow-y:scroll;
+}
+.select_large span.selectOption {
+	display:block;
+	width:84%;
+	padding:2px 8%;
+}
+.select_large span.selectOption:hover {
+	color:#fff;
+	background:#348AB3;
+}
+
+
+
+

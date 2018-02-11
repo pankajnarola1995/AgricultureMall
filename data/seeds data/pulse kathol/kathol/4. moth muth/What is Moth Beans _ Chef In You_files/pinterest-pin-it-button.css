@@ -1,0 +1,33 @@
+/* Pinterest "Pin It" Button Public CSS */
+
+/* DIV surrounding button */
+.pin-it-btn-wrapper,
+.pin-it-btn-wrapper-shortcode,
+.pin-it-btn-wrapper-widget {
+
+}
+
+.pin-it-btn-wrapper {
+    padding-bottom: 10px;
+}
+
+/* Latest "clear fix" method: http://css-tricks.com/snippets/css/clear-fix/ */
+.pib-clearfix:before,
+.pib-clearfix:after {
+    content:"";
+    display:table;
+}
+.pib-clearfix:after {
+    clear:both;
+}
+.pib-clearfix {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.pib-float-left {
+    float: left;
+}
+
+.pib-float-right {
+    float: right;
+}

@@ -1,0 +1,33 @@
+/*
+Theme Name: Sorghum Checkoff
+Theme URI: http://48web.com
+Description: WordPress theme for Sorghum Checkoff
+Version: 1.0
+Author: Andy Brudtkuhl at 48Web
+Author URI: http://48web.com
+*/
+#pestTable td {
+ border: 1px solid black;
+}
+
+#petFoodTable td {
+ min-width:13em;
+ padding-bottom:2em;
+}
+
+#recipeTable td:nth-child(2) {
+  padding-left:40px;
+}
+#recipeTable img {
+  border:0px;
+}
+#recipeTable td {
+  padding:10px;
+}
+#recipeTable h2 {
+  padding-bottom:20px;
+}
+
+#attachment_4950 {
+float:right;
+}

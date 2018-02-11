@@ -1,0 +1,804 @@
+/*
+    esmiling: this stylesheet exists so that we can iteratively phase
+    the entirety of core.css into shutterstock css and phase out 
+    deprecated css or replaced css presently in shutterstock.css. 
+    
+    core.css is currently only included on one page.
+    
+    this stylesheet is included on all pages.
+    
+    The intention is to move *new* styles from core.css
+    into this sheet as we use them, and to eventually 
+    resolve existing shutterstock.css conflicts and remove duplicates.
+*/
+
+body {	
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+th, tr, td {
+	font-family : Arial, Helvetica, sans-serif;
+}
+table {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+.round_6 {
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+.round_4 {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.round_3 {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.round_2 {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.blue_highlight {
+	background-color: #f0f4ff;
+	color: #303038;
+}
+.blue_knockout {
+	background-color: #8a9dbe;
+	color: white;
+}
+.gray_knockout {
+	background-color: #a5b2b9;
+	color: white;
+}
+.pipe {
+	opacity: 0.4;
+	_filter: alpha(opacity=40);
+	zoom: 1;
+	padding: 0 0.4em;
+	font-size: 1.3em;
+	background-color: white;
+}
+.frame {
+	border: 1px solid #e0e0e0;
+}
+
+
+/*  START:  headers */
+h1, h2, h3, h4, h5, h6, h1.medium, h2.medium, h3.medium, h4.medium, h5.medium, h6.medium, .core_headline, .call_to_action {
+    font-family: Franklin Gothic Medium, FranklinGothicMedium, Arial, sans-serif;
+}
+h1.light, h2.light, h3.light, h4.light, h5.light, h6.light, .core_headline_light {
+    font-family: Franklin Gothic Book, FranklinGothicBook, Arial, sans-serif;
+}
+
+h1, .core_h1 {
+    color: #404040;
+    margin: 0.4em 0;
+    font-size: 25px;
+    font-weight: normal;
+}
+h2, .core_h2 {
+    color: #606060;
+    margin: 0.4em 0;
+    font-size: 21px;
+    font-weight: normal;
+}
+h2.light, .core_h2_light {
+    font-size: 20px;
+}
+h3, .core_h3 {
+    color: #606060;
+    margin: 0.4em 0;
+    font-size: 17px;
+    font-weight: normal;
+}
+h3.light, .core_h3_light {
+    font-size: 16px;
+}
+h5, .core_h5 {
+    color: #707070;
+    margin: 0.4em 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+h6, .core_h6 {
+    color: #707070;
+    margin: 0.4em 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+h1.marketing, .core_h1_marketing {
+    color: #282828;
+    font-size: 35px;
+}
+h2.marketing, .core_h2_marketing {
+    color: #007fc9;
+    font-size: 25px;
+}
+h3.blue, .core_h3_blue {
+    color: #7f8bb2;
+}
+/*  END:  headers */
+
+/* anchors */
+.gray_link,
+.green_link {
+	font-size: 11px;
+}
+.green_link {
+	color: #5c7b00;
+}
+.green_link:hover {
+	color: #7faa00;
+}
+.gray_link {
+	color: #888888;
+}
+.gray_link:hover {
+	color: #505050;
+}
+
+/* button */
+button, .button {
+	padding: 0.34em 1.5em 0.4em;
+    background-color: #e15140;
+    background: -webkit-linear-gradient(top, #f2a4a2 0, #e85b54 4.5%, #b22520 100%);
+    background: linear-gradient(to bottom, #f2a4a2 0, #e85b54 4.5%, #b22520 100%);
+	border-radius: 3.1px;
+	-webkit-border-radius: 3.1px;
+	border: 1px solid #B22520;
+	color: #fff;
+	font: bold 15px arial,sans-serif;
+	margin: 0;
+	cursor: pointer;
+	display: inline-block;
+}
+button:hover, .button:hover {
+    background-color: #da4b3a;
+    background: -webkit-linear-gradient(top, #f2a4a2 0, #e35342 6%, #e35342 100%);
+    background: linear-gradient(to bottom, #f2a4a2 0, #e35342 6%, #e35342 100%);
+    color: #fff;
+    text-decoration: none;
+}
+button:active, .button:active {
+    background: #d24332;
+    background: -webkit-linear-gradient(top, #f7a69b .0%, #CE2C1E 6.5%, #EA3220 100.0%);
+    background: linear-gradient(to bottom, #f7a69b .0%, #CE2C1E 6.5%, #EA3220 100.0%);
+    border: 1px solid #AC261A;
+}
+button.disabled, .button_disabled {
+	cursor: default;
+}
+button.disabled:hover, .button_disabled:hover {
+	cursor: default;
+}
+button.white, .button_white {
+	color: #64676b;
+	padding: 0.24em 1.6em 0.3em;
+    background-color: #fff;
+    background: -webkit-linear-gradient(top, #fff 0, #fff 3%, #e0e1e2 100%);
+    background: linear-gradient(to bottom, #fff 0, #fff 3%, #e0e1e2 100%);
+	border: 1px solid #ccc;
+}
+button.white:hover, .button_white:hover {
+    color: #777;
+    background-color: #fff;
+    background: -webkit-linear-gradient(top, #fff 40%, #e9eaea 100%);
+    background: linear-gradient(to bottom, #fff 40%, #e9eaea 100%);
+    border: 1px solid #bbb;
+}
+button.white:active, .button_white:active {
+    color: #64676b;
+    background-color: #e0e1e2;
+    background: -webkit-linear-gradient(top, #e0e1e2 1%, #fff 100%);
+    background: linear-gradient(to bottom, #e0e1e2 1%, #fff 100%);
+    border: 1px solid #ccc;
+}
+button.gray, .button_gray {
+	background-color: #8b8d90;
+    background: -webkit-linear-gradient(top, #eceded 0, #8b8d90 3%, #64676b 100%);
+    background: linear-gradient(to bottom, #eceded 0, #8b8d90 3%, #64676b 100%);
+    border: 1px solid #64676b;
+}
+button.gray:hover, .button_gray:hover {
+    background-color: #96989b;
+    background: -webkit-linear-gradient(top, #eceded 0, #8b8d90 3%, #8b8d90 100%);
+    background: linear-gradient(to bottom, #eceded 0, #8b8d90 3%, #8b8d90 100%);
+    border: 1px solid #64676b;
+}
+button.gray:active, .button_gray:active {
+    background-color: #64676b;
+    background: -webkit-linear-gradient(top, #eceded 0, #64676b 3%, #8b8d90 99%);
+    background: linear-gradient(to bottom, #eceded 0, #64676b 3%, #8b8d90 99%);
+    border: 1px solid #64676b;
+}
+button.micro, .button_micro {
+	font-size: 11px;
+	padding: 0.1em 1em;
+}
+button.small, .button_small {
+	font-size: 12px;
+	padding: 0.4em 1.5em;
+}
+button.large, .button_large {
+	font-size: 18px;
+}
+
+
+/* shadow and dropdown */
+.dropdown,
+.shadow,
+.shadow2,
+.shadow_gray,
+.shadow_dark_gray {
+    background-color: #ffffff;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    *border: 1px solid #afafaf;
+    border: 1px solid #afafaf;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+    -moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+}
+.shadow,
+.shadow_dark_gray {
+	padding: 0.15em 1em 1em 1.3em;
+}
+
+
+/* New Dark Style (only has support for top arrow currently) */
+.shadow_dark {
+    position: absolute;
+	padding: 12px 25px 12px 15px;
+	background-color: #555;
+	color: #fff;
+    -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .4);
+    margin-top: 14px;
+    opacity: 0;
+    transition: opacity .1s linear, margin-top .4s cubic-bezier(0.160, 2, 0.310, 0.930);
+	-webkit-transition: opacity .1s linear, margin-top .4s cubic-bezier(0.160, 2, 0.310, 0.930);
+}
+.shadow_dark.in {
+	margin-top: 0;
+	opacity: 1;
+}
+.shadow_dark .shadow_arrow_top {
+	clip: rect(0, 38px, 38px, -5px);
+}
+.shadow_dark .shadow_arrow_top .sa_arrow {
+	width: 14px;
+	height: 14px;
+	-webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .4);
+    display: block;
+    background: #555;
+    border: none;
+    top: 31px;
+    -ms-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+   	transform:rotate(45deg);
+}
+.lte8 .shadow_dark .shadow_arrow_top .sa_arrow {
+	width: auto;
+	height: auto;
+	background: none;
+	border: 10px solid;
+	border-color: transparent transparent #555 transparent;
+	top: 18px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.lte8 .shadow_dark {
+	margin-top: 0 !important;
+}
+
+/* shadow arrows */
+.shadow_arrow_top,
+.shadow_arrow_right,
+.shadow_arrow_bottom,
+.shadow_arrow_left,
+.sa_arrow,
+.sa_border {
+	position: absolute;
+}
+.sa_arrow,
+.sa_border {
+	border-style: solid;
+	display: block;
+	width: 0;
+	height: 0;
+	top: 0;
+	left: 0;
+}
+.sa_arrow {
+	border-width: 17px;
+}
+.sa_border {
+	border-width: 18px;
+}
+
+/* top arrows */
+.shadow_arrow_top .sa_arrow { 
+	border-color: transparent transparent #fff transparent;
+    top: 0;
+    left: 1px;
+}
+.shadow_arrow_top .sa_border { 
+	border-color: transparent transparent rgba(153, 153, 153, 0.6) transparent;
+	top: -2px;
+}
+
+/* right arrows */
+.shadow_arrow_right .sa_arrow { 
+	border-color: transparent transparent transparent #fff;
+	top: 2px;
+}
+.shadow_arrow_right .sa_border { 
+	border-color: transparent transparent transparent rgba(153, 153, 153, 0.6);
+	left: 4px;
+}
+
+/* bottom arrows */
+.shadow_arrow_bottom .sa_arrow { 
+	border-color: #fff transparent transparent transparent;
+	top: -6px;
+	left: 2px;
+}
+.shadow_arrow_bottom .sa_border { 
+	border-color: rgba(153, 153, 153, 0.6) transparent transparent transparent;
+	top: -2px;
+}
+
+/* left arrows */
+.shadow_arrow_left .sa_arrow { 
+	border-color: transparent #fff transparent transparent;
+    top: 1px;
+    left: 3px;
+}
+.shadow_arrow_left .sa_border { 
+	border-color: transparent rgba(153, 153, 153, 0.6) transparent transparent;
+}
+
+/* colored shadow and arrows */
+.shadow_dark_gray {
+	background-color: #555;
+	color: #fff;
+}
+.shadow_container_gray .shadow,
+.shadow_gray {
+	background-color: #f4f4f4;
+}
+.shadow_container_gray .shadow_arrow_top .sa_arrow {
+	border-color: transparent transparent #f4f4f4 transparent;
+}
+.shadow_container_gray .shadow_arrow_right .sa_arrow {
+	border-color: transparent transparent transparent #f4f4f4;
+}
+.shadow_container_gray .shadow_arrow_bottom .sa_arrow {
+	border-color: #f4f4f4 transparent transparent transparent;
+}
+.shadow_container_gray .shadow_arrow_left .sa_arrow {
+	border-color: transparent #f4f4f4 transparent transparent;
+}
+.shadow_dark_gray .shadow_arrow_top .sa_arrow {
+	border-color: transparent transparent #555 transparent;
+}
+.shadow_dark_gray .shadow_arrow_right .sa_arrow {
+	border-color: transparent transparent transparent #555;
+}
+.shadow_dark_gray .shadow_arrow_bottom .sa_arrow {
+	border-color: #555 transparent transparent transparent;
+}
+.shadow_dark_gray .shadow_arrow_left .sa_arrow {
+	border-color: transparent #555 transparent transparent;
+}
+
+/* iexp shadows/notches */
+.lte9 .shadow_arrow_top .sa_border { 
+	border-color: transparent transparent #afafaf  transparent;
+}
+.lte9 .shadow_arrow_right .sa_border { 
+	border-color: transparent transparent transparent #afafaf ;
+}
+.lte9 .shadow_arrow_bottom .sa_border { 
+	border-color: #afafaf  transparent transparent transparent;
+}
+.lte9 .shadow_arrow_left .sa_border { 
+	border-color: transparent #afafaf  transparent transparent;
+}
+
+/* close buttons */
+.close_btn,
+.close_btn_dark,
+.close_btn_small,
+.close_btn_nobox {
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    background-image: url('http://s6.picdn.net/images/template_sprite_rev14.png');
+    cursor: pointer;
+    cursor: hand;
+}
+/* medium close buttons */
+.close_btn,
+.close_btn_dark {
+    top: 15px;
+    right: 15px;
+    width: 16px;
+    height: 16px;
+}
+.close_btn {
+	background-position: 0 -270px;
+}
+.close_btn_dark {
+	background-position:  0 -300px;
+}
+.close_btn:hover,
+.close_btn_dark:hover {
+	background-position:  0 -330px;
+}
+/* small close buttons */
+.close_btn_small {
+    background-position: -2px -417px;
+    height: 12px;
+    width: 12px;
+    top: 10px;
+    right: 9px;
+}
+.close_btn_small:hover {
+    background-position: -2px -447px;
+}
+/* medium close button, no box */
+.close_btn_nobox {
+    background-position: 0 -356px;
+    height: 16px;
+    width: 16px;
+    top: 10px;
+    right: 9px;
+}
+.close_btn_nobox:hover {
+    background-position: 0 -386px;
+}
+.close-icon {
+	display: none;
+}
+
+/* close text */
+.close_txt {
+	color: #909090;
+	cursor: pointer;
+	cursor: hand;
+}
+
+/* dropdowns */
+.dropdown {
+	display: inline-block;
+}
+.dropdown h6 {
+	color: #585858;
+	border-bottom: 1px solid #a0a0a0;
+	font-size: 13px;
+	padding: 0.2em 0.5em 0.4em;
+	margin-bottom: 0;
+}
+.dropdown ul {
+	margin: 0;
+	padding: 0 0 0.5em 0;
+}
+.dropdown ul li {
+	color: #707070;
+	border-bottom: 1px dotted #c0c0c0;
+	list-style: none;
+	padding: 0.4em 2em 0.4em 1em;
+}
+.dropdown ul li:hover {
+	background-color: #e0e8ff;	
+	color: #505058;
+	cursor: pointer;
+	cursor: hand;
+}
+
+/* generic textbox shadow wrapper classes */
+.input_text_7C8DAB,
+.input_text_ECECEC,
+.input_text_D7D7D7 {
+    display: block;
+    padding: 3px;
+    position: relative;
+}
+.input_text_7C8DAB {
+    background-color: #7C8DAB;
+}
+.input_text_ECECEC {
+	background-color: #ECECEC;
+}
+.input_text_D7D7D7 {
+    background-color: #D7D7D7;
+}
+.input_text input,
+.input_text_7C8DAB input,
+.input_text_ECECEC input,
+.input_text_D7D7D7 input
+{
+	border:1px solid #999999;
+	height:20px;
+	padding: 3px;
+}
+
+/*
+ * Dismissable notification addition
+ */
+
+/* dismissable notification core */
+.dismissable_notification {
+	padding:0px 0px 23px 0px;
+	max-width:929px;
+}
+.dismissable_notification .content {
+	position:relative;
+	text-align:center;
+	border:1px solid #d5cf96;
+	background-image:url(http://s5.picdn.net/images/dismissable_message_bg.png);
+	background-repeat:repeat-x;
+	background-color:#f3f2e3;
+	color:#606060;
+	margin:0px auto;
+	padding:0px 10px;
+}
+.dismissable_notification .content a {
+	cursor:pointer;
+	cursor:hand;
+	font:normal 12px arial,sans-serif;
+	color:#609030;
+}
+.dismissable_notification .content a:hover {
+	color:#80B040;
+}
+.dismissable_notification #inner_dismissable_notification {
+	padding:9px 0px 7px 0px;
+}
+.dismissable_notification .separator {
+	padding: 0 0.5em;
+	color: #c0c0c0;
+}
+.dismissable_notification .links {
+	color: #808080;
+	display: block;
+	margin: 6px 0 0 0;
+}
+
+.error_notification {
+	position:relative;
+	border:1px solid #edbcbd;
+	background-color:#faf2f2;
+	text-align:left;
+}
+.error_notification .inner_error_notification {
+	padding:10px 20px;
+}
+.error_notification ul{
+	margin:0px;
+	padding:0px 0px 0px 20px;
+	color:#CC4600;
+}
+
+.success_notification {
+	position:relative;
+	border:1px solid #c6ddb2;
+	background-color: #edf5e6;
+	text-align:left;
+}
+.success_notification .inner_success_notification {
+	padding: 10px 20px;
+}
+.success_notification .inner_success_notification .message {
+	padding: 4px 0px 4px 29px;
+	background: url('http://s2.picdn.net/images/template_sprite_20_rev9.png') no-repeat scroll 0 2px transparent;
+}
+
+.system_notification {
+	color: #666;
+	font-size: 13px;
+	line-height: 18px;
+	border-bottom: 1px dotted #AAA;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+.system_notification img {
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.dismissable { /* combine with system_notification and a close button */
+	position: relative;
+	padding: 0 30px 10px 0;
+}
+.dismissable .close_btn {
+	top: 2px;
+	right: 0;
+}
+
+.headline,
+.headline_attention {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #8093B2;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+.headline_attention {
+	color: #CC3300;
+}
+.dotted_link {
+	color: #666;
+	border-bottom: 1px dotted #AAA;
+}
+.dotted_link:hover {
+	color: #333;
+	border-bottom: 1px dotted #666;
+}
+
+
+/* utilities */
+.no_text_selection {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.no_bullet_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+ * These are some temporary styles that are covered in core.css, but we can't use them yet
+ * because they would conflict/break things on pages that use shutterstock.css
+ * J:	These headline styles no longer contain any core specific stuff.
+ * 		We could use this section for any future header tag overrides.
+ */
+.core_headline3 {
+	color:#ffffff;
+	letter-spacing:normal;
+	padding:3px 0px;
+	margin:0px;
+}
+ 
+.pic_headline5 {
+	font-size:13px;
+	color:#404040;
+	letter-spacing:normal;
+	padding:10px 0px 0px 0px;
+	margin:0px;
+	text-align:left;
+ }
+/**/
+
+
+.core_icon {
+	background-image: url('http://s6.picdn.net/images/template_sprite_rev14.png');
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+	margin: 0;
+	padding: 0;
+}
+.core_icon.world_icon {
+	background-position: 0 0;
+}
+.core_icon.phone_icon {
+	background-position: 0 -30px;
+}
+.core_icon.lightbulb_icon {
+	background-position: 0 -60px;
+}
+.core_icon.search_icon {
+	background-position: 0 -90px;
+}
+.core_icon.user_icon {
+	background-position: 0 -120px;
+}
+.core_icon.download_icon {
+	background-position: 0 -150px;
+}
+.core_icon.rightarrow_icon {
+	background-position: 0 -180px;
+}
+.core_icon.minigo_icon {
+	background-position: 0 -210px;
+}
+.core_icon.microgo_icon {
+	background-position: 0 -240px;
+}
+.core_icon.closewhite_icon {
+	background-position: 0 -270px;
+}
+.core_icon.closedark_icon {
+	background-position: 0 -300px;
+}
+.core_icon.closegray_icon {
+	background-position: 0 -330px;
+}
+/* 
+ * From Twitter's Bootstrap 
+ */
+
+/* For desktops */
+.visible-phone     { display: none !important; }
+.visible-tablet    { display: none !important; }
+.visible-desktop   { }
+
+/* Don't set initially */
+.hidden-phone      { }
+.hidden-tablet     { }
+.hidden-desktop    { display: none !important; }
+
+/* Phones only */
+@media (max-width: 767px) {
+	.visible-phone     { display: inherit !important; }
+	.hidden-phone      { display: none !important; }
+	.hidden-desktop    { display: inherit !important; }
+  .visible-desktop   { display: none !important; }
+}
+
+/* Tablets & small desktops only */
+@media (min-width: 768px) and (max-width: 979px) {
+	.visible-tablet    { display: inherit !important; }
+	.hidden-tablet     { display: none !important; }
+	.hidden-desktop    { display: inherit !important; }
+	.visible-desktop   { display: none !important ; }
+}
+/* This file must come at the end of the compiled CSS file as IE may break parsing at this point */
+
+/*
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ */
+  
+@font-face {
+	/* This declaration targets Internet Explorer */
+	font-family: 'FranklinGothicMedium';
+	src: url(http://www.shutterstock.com/fonts/franklin_gothic/franklingothicfs_medium_macroman/FranklinGothic-Med-webfont.eot);
+}
+@font-face {
+	/* This declaration targets everything else */
+	font-family: 'FranklinGothicMedium';
+	src: url(//:) format('no404'), url(http://www.shutterstock.com/fonts/franklin_gothic/franklingothicfs_medium_macroman/FranklinGothic-Med-webfont.woff) format('woff'), url(http://www.shutterstock.com/fonts/franklin_gothic/franklingothicfs_medium_macroman/FranklinGothic-Med-webfont.ttf) format('truetype'), url(http://www.shutterstock.com/fonts/franklin_gothic/franklingothicfs_medium_macroman/FranklinGothic-Med-webfont.svg#webfont) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    /* This declaration targets Internet Explorer */
+	font-family: 'FranklinGothicBook';
+	src: url(http://www.shutterstock.com/fonts/franklin_gothic/franklingothicfs_book_macroman/FranklinGothic-Book-webfont.eot);
+}
+@font-face {
+        /* This declaration targets everything else */
+	font-family: 'FranklinGothicBook';
+	src: url(//:) format('no404'), url(http://www.shutterstock.com/fonts/franklin_gothic/franklingothicfs_book_macroman/FranklinGothic-Book-webfont.woff) format('woff'), url(http://www.shutterstock.com/fonts/franklin_gothic/franklingothicfs_book_macroman/FranklinGothic-Book-webfont.ttf) format('truetype'), url(http://www.shutterstock.com/fonts/franklin_gothic/franklingothicfs_book_macroman/FranklinGothic-Book-webfont.svg#webfont8MkhAScZ) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Match Shutterstrap Placeholders */
+input:-moz-placeholder,textarea:-moz-placeholder{color:#999}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#999!important}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#999}input::-moz-placeholder,textarea::-moz-placeholder{color:#999}
+

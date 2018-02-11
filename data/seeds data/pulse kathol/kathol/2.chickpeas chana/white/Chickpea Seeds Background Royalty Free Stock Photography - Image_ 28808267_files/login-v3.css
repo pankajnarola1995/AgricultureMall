@@ -1,0 +1,96 @@
+a.searchitemgg { white-space:nowrap; padding-right:5px; display:block; }
+a:link.searchitemgg { white-space:nowrap; padding-right:5px; }
+a:visited.searchitemgg { white-space:nowrap; padding-right:5px; }
+a:focus.searchitemgg { white-space:nowrap; padding-right:5px; }
+a:hover.searchitemgg
+	{
+	position:absolute;
+	left:0px;
+	width:126px;
+	background:#E5E2DE;
+	padding:2px 3px 0px 3px;
+	white-space:normal;
+	position:relative \9;
+	}
+a:active.searchitemgg { white-space:nowrap; padding-right:5px; }
+
+.thb_c21
+	{
+	height:14px;
+	height:17px \9;
+	margin-right:2px;
+	}
+
+.descbigimg { font-size: 11px; font-weight: normal; height: 13px; display: block; overflow: hidden; background-color: white; }
+.descbigimg:hover { overflow: visible; height: 100%; }
+.desch2 { font-size: 11px;font-weight: normal; }
+
+.ggt3 {width:23px; vertical-align:top; background: url(http://thumbs.dreamstime.com/site-img/tab_3.gif) no-repeat;}
+.ggt2 {width:25px; vertical-align:top; background: url(http://thumbs.dreamstime.com/site-img/tab_2.gif) no-repeat;}
+.ggt1 {width:31px; vertical-align:top; background: url(http://thumbs.dreamstime.com/site-img/tab_1.gif) no-repeat;}
+.ggs2 {width:30px; vertical-align:top; background: url(http://thumbs.dreamstime.com/site-img/tab_sep_green2.gif) no-repeat;}
+.ggs1 {width:13px; vertical-align:top; background: url(http://thumbs.dreamstime.com/site-img/tab_sep_green.gif) no-repeat;}
+.ggg {width:10px; vertical-align:top; background: url(http://thumbs.dreamstime.com/site-img/tab_back2.gif) repeat-x;}
+.ggv {width:10px; vertical-align:top; background: url(http://thumbs.dreamstime.com/site-img/tab_categories_back.gif) repeat-x;}
+.ggh {height:25px;}
+.mpad {padding-left:3px !important;padding-right:3px !important;}
+.mpada {padding-left: 22px; padding-right: 22px;}
+.mpadal {padding-right: 41px !important;}
+.mpadar {padding-left: 21px; padding-right: 24px;}
+.mnew {margin: 10px 0 0 0; vertical-align: top;}
+
+
+.mr15 {margin-right:15px;}
+.vam {vertical-align:middle;}
+.topback {vertical-align:bottom; text-align:right; padding-bottom:8px;}
+#topcurve {width:113px;background: #f6f3f0 url('http://thumbs.dreamstime.com/site-img/top_back_left_3.gif') no-repeat bottom right;}
+.hdr_stats {border-spacing:0; border-collapse:collapse; padding:0px; border:0px; text-align:right;float:right;}
+
+div.gp { padding-top: 1px; }
+div.tw { padding-top: 1px; margin-right:6px; }
+iframe.twiframe { width:60px; height:20px; }
+iframe.fbiframe { border:none; overflow:hidden; width:80px; height:20px; padding-top:1px; }
+div.flgg { float:left; }
+div.contactgg { clear:both; padding-top:2px; margin-left:2px; font-size:10px; }
+img.contactgg { border:0px; margin-right:3px; }
+
+div#socialdiv
+	{
+	position:absolute;
+	background-image: url(http://thumbs.dreamstime.com/site-img/headsocial/social-back.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	padding-left:4px;
+	padding-top:0px;
+	width:250px;
+	height:23px;
+	}
+div#bigdiv {background-color:#FFFFFF;}
+div#biggg {background-color:#FFFFFF; height:100%;}
+
+body
+	{
+	background-color:#FFFFFF;
+	margin: 0px 0px 0px 0px;
+	}
+div.logingg
+	{
+	display: inline;
+	position: relative;
+	}
+div.logingg label
+	{
+	position: relative;
+	}
+div.logingg label span 
+	{
+	position: absolute;
+	font-size: 11px;
+	line-height: 13px;
+	top: 5px;
+	left: 6px;
+	}
+div.logingg label input:focus
+	{
+	color:#5B9400 !important;
+	}
