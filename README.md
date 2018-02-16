@@ -68,5 +68,5 @@ http://localhost/www.agromall.com/admin/admin <br/>
 Username: Pankajnarola1995@gmail.com <br/>
 Password: narola1234 <br/>
 
-# Copyright (c) 2017 Jyotiben Sapariya. All rights reserved. <br/>
+# Copyright (c) 2018 Pankaj Narola. All rights reserved. <br/>
 # AgricultureMall
